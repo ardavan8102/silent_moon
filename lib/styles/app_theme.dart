@@ -15,6 +15,19 @@ class AppTheme {
         fontWeight: .bold,
       ),
 
+      // Titles
+      titleLarge: TextStyle(
+        fontFamily: 'Dana',
+        fontSize: 32,
+        fontWeight: .bold,
+      ),
+
+      titleMedium: TextStyle(
+        fontFamily: 'Dana',
+        fontSize: 24,
+        fontWeight: .w500,
+      ),
+
       // Labels
       labelLarge: TextStyle(
         fontFamily: 'Dana',

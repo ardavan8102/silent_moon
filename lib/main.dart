@@ -7,6 +7,7 @@ import 'package:silent_moon/styles/app_theme.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
+  // Hide mobile's bottom navbar
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   
   runApp(const MyApp());

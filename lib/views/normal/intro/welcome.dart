@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/consts/strings.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
+import 'package:silent_moon/routes/routes.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({super.key});
@@ -23,9 +25,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
         _opacity = 1;
       });
     });
-
-    // Navigate
-    // TODO : Navigate to "Choose topic"
   }
 
   @override
@@ -112,7 +111,9 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 child: SizedBox(
                   height: size.height * .08,
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.offAndToNamed(AppRoutes.chooseTopic);
+                    },
                     style: ButtonStyle(
                       backgroundColor: WidgetStateProperty.all(AppSolidColors.lightButtonBackGround),
                     ),
