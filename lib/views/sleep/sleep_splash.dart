@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/consts/strings.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
@@ -24,9 +23,6 @@ class _SplashScreenState extends State<SplashScreen> {
         _opacity = 1;
       });
     });
-
-    // hide mobile's bottom navbar
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
 
     // Navigate
     // TODO : Must navigate to sleep screen
@@ -105,7 +101,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       backgroundColor: WidgetStateProperty.all(AppSolidColors.primary),
                     ),
                     child: Text(
-                      'همین حالا شروع کنید',
+                      AppStrings.getStartButtonText,
                       style: textTheme.labelLarge!.copyWith(
                         color: Colors.white
                       ),

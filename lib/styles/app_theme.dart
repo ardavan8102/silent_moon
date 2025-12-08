@@ -22,6 +22,13 @@ class AppTheme {
         fontWeight: .bold,
       ),
 
+      // Bodies
+      bodySmall: TextStyle(
+        fontFamily: 'Dana',
+        fontSize: 20,
+        fontWeight: .w400
+      )
+
     ),
 
   );

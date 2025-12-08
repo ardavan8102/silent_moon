@@ -20,12 +20,30 @@ class $AssetsImagesGen {
   /// File path: assets/images/logo.png
   AssetGenImage get logo => const AssetGenImage('assets/images/logo.png');
 
+  /// File path: assets/images/logo_text.png
+  AssetGenImage get logoText =>
+      const AssetGenImage('assets/images/logo_text.png');
+
+  /// File path: assets/images/meditation.png
+  AssetGenImage get meditation =>
+      const AssetGenImage('assets/images/meditation.png');
+
   /// File path: assets/images/splash_background.png
   AssetGenImage get splashBackground =>
       const AssetGenImage('assets/images/splash_background.png');
 
+  /// File path: assets/images/welcome.png
+  AssetGenImage get welcome => const AssetGenImage('assets/images/welcome.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [birds, logo, splashBackground];
+  List<AssetGenImage> get values => [
+    birds,
+    logo,
+    logoText,
+    meditation,
+    splashBackground,
+    welcome,
+  ];
 }
 
 class Assets {
