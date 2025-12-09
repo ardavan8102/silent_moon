@@ -6,5 +6,14 @@ class AppStrings {
 
   // Button Labels
   static const String getStartButtonText = 'همین حالا شروع کنید';
+
+
+  // Set Reminders Screen
+  static const String reminderTitleDescription = 'هر زمانی که می‌توانید انتخاب کنید، اما ما صبح اول وقت را توصیه می‌کنیم.';
+  static const String reminderTitleText = 'چه ساعــتی رو برای';
+  static const String reminderTitleSubText = 'مدیتیشنــ دوســت دارید؟';
+  static const String weekdaySelectorTitleText = 'چـه روزیــ از هفتـه';
+  static const String weekdaySelectorTitleSubText = 'برای مدیتیشنــ شما مناسبـه؟';
+  static const String weekdaySelectorTitleDescription = 'هر روز بهتر است، اما توصیه می‌کنیم حداقل پنج مورد را انتخاب کنید.';
   
 }

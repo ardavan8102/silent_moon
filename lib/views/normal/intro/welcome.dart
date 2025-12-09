@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:silent_moon/components/button_full_width.dart';
 import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/consts/strings.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
@@ -108,23 +109,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 left: 24,
                 right: 24,
                 bottom: 100,
-                child: SizedBox(
-                  height: size.height * .08,
-                  child: ElevatedButton(
-                    onPressed: () {
-                      Get.offAndToNamed(AppRoutes.chooseTopic);
-                    },
-                    style: ButtonStyle(
-                      backgroundColor: WidgetStateProperty.all(AppSolidColors.lightButtonBackGround),
-                    ),
-                    child: Text(
-                      AppStrings.getStartButtonText,
-                      style: textTheme.labelLarge!.copyWith(
-                        color: AppSolidColors.darkText
-                      ),
-                    ),
-                  ),
-                )
+                child: ButtonFullWidth(
+                  msg: AppStrings.getStartButtonText,
+                  bgcolor: AppSolidColors.lightButtonBackGround,
+                  function: (){
+                    Get.offAndToNamed(AppRoutes.chooseTopic);
+                  },
+                  textColor: AppSolidColors.darkText
+                ),
               ),
             ],
           ),

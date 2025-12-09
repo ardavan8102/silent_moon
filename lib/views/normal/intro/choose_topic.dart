@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
+import 'package:silent_moon/components/button_full_width.dart';
 import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/data/topic_categories.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
@@ -16,6 +17,7 @@ class ChooseTopicScreen extends StatefulWidget {
 
 class _ChooseTopicScreenState extends State<ChooseTopicScreen> {
 
+  // TODO : must change to saving data in storage
   final List<int> selectedTopics = [];
 
   @override
@@ -160,19 +162,14 @@ class _ChooseTopicScreenState extends State<ChooseTopicScreen> {
                   bottom: 0,
                   left: 0,
                   right: 0,
-                  child: ElevatedButton(
-                    onPressed: () {
+                  child: ButtonFullWidth(
+                    msg: 'ادامه',
+                    bgcolor: AppSolidColors.primary,
+                    function: (){
                       Get.toNamed(AppRoutes.setReminders);
                     },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: AppSolidColors.primary,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(16),
-                      ),
-                      minimumSize: const Size.fromHeight(60),
-                    ),
-                    child: const Text('ادامه'),
-                  ),
+                    textColor: AppSolidColors.lightText
+                  )
                 ),
             ],
           ),
