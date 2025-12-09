@@ -14,6 +14,9 @@ import 'package:flutter/widgets.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// Directory path: assets/images/banners
+  $AssetsImagesBannersGen get banners => const $AssetsImagesBannersGen();
+
   /// File path: assets/images/birds.png
   AssetGenImage get birds => const AssetGenImage('assets/images/birds.png');
 
@@ -27,6 +30,10 @@ class $AssetsImagesGen {
   /// File path: assets/images/logo_text.png
   AssetGenImage get logoText =>
       const AssetGenImage('assets/images/logo_text.png');
+
+  /// File path: assets/images/logo_text_dark.png
+  AssetGenImage get logoTextDark =>
+      const AssetGenImage('assets/images/logo_text_dark.png');
 
   /// File path: assets/images/meditation.png
   AssetGenImage get meditation =>
@@ -49,6 +56,7 @@ class $AssetsImagesGen {
     chooseTopicOverlay,
     logo,
     logoText,
+    logoTextDark,
     meditation,
     reduceStressBg,
     splashBackground,
@@ -61,6 +69,29 @@ class $AssetsSvgGen {
 
   /// Directory path: assets/svg/topics
   $AssetsSvgTopicsGen get topics => const $AssetsSvgTopicsGen();
+}
+
+class $AssetsImagesBannersGen {
+  const $AssetsImagesBannersGen();
+
+  /// File path: assets/images/banners/basics_banner.png
+  AssetGenImage get basicsBanner =>
+      const AssetGenImage('assets/images/banners/basics_banner.png');
+
+  /// File path: assets/images/banners/relaxation_banner.png
+  AssetGenImage get relaxationBanner =>
+      const AssetGenImage('assets/images/banners/relaxation_banner.png');
+
+  /// File path: assets/images/banners/slider_home_bg.png
+  AssetGenImage get sliderHomeBg =>
+      const AssetGenImage('assets/images/banners/slider_home_bg.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [
+    basicsBanner,
+    relaxationBanner,
+    sliderHomeBg,
+  ];
 }
 
 class $AssetsSvgTopicsGen {

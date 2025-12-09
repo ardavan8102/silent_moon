@@ -8,6 +8,7 @@ environment:
   sdk: ^3.10.0
 
 dependencies:
+  carousel_slider: ^5.1.1
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
@@ -28,10 +29,14 @@ flutter:
   assets:
     - assets/images/logo.png
     - assets/images/logo_text.png
+    - assets/images/logo_text_dark.png
     - assets/images/splash_background.png
     - assets/images/birds.png
     - assets/images/welcome.png
     - assets/images/meditation.png
+    - assets/images/banners/relaxation_banner.png
+    - assets/images/banners/slider_home_bg.png
+    - assets/images/banners/basics_banner.png
     - assets/images/choose_topic_overlay.png
     - assets/images/reduce_stress_bg.png
     - assets/svg/topics/improve_performance.svg

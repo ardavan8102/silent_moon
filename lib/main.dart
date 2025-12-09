@@ -26,7 +26,8 @@ class MyApp extends StatelessWidget {
 
       theme: AppTheme.mainTheme,
 
-      initialRoute: AppRoutes.welcome,
+      //initialRoute: AppRoutes.welcome,
+      initialRoute: AppRoutes.home,
       getPages: AppPages.pages,
     );
   }

@@ -1,12 +1,249 @@
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:silent_moon/components/home_podcasts_slider_card.dart';
+import 'package:silent_moon/consts/colors.dart';
+import 'package:silent_moon/data/home_podcast_slider.dart';
+import 'package:silent_moon/gen/assets.gen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+
+    var size = MediaQuery.of(context).size;
+    var textTheme = Theme.of(context).textTheme;
+
     return Scaffold(
-      backgroundColor: Colors.red,
+      body: SafeArea(
+        child: Container(
+          padding: EdgeInsets.all(24),
+          width: size.width,
+          height: size.height,
+          child: Stack(
+            children: [
+              // Content
+              SingleChildScrollView(
+                physics: BouncingScrollPhysics(),
+                child: Column(
+                  crossAxisAlignment: .start,
+                  children: [
+                    SizedBox(height: size.height * .02),
+                
+                    // Logo
+                    Center(
+                      child: Image.asset(Assets.images.logoTextDark.path),
+                    ),
+                
+                    const SizedBox(height: 40),
+                    
+                    // Greetings Text
+                    Column(
+                      spacing: 2,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text.rich(
+                          TextSpan(
+                            children: [
+                              TextSpan(
+                                text: 'خوش آمدید',
+                                style: textTheme.titleMedium!.copyWith(
+                                  fontFamily: 'Plasma',
+                                  fontSize: 40,
+                                ),
+                              ),
+                
+                              WidgetSpan(child: SizedBox(width: 6)),
+                
+                              TextSpan(
+                                text: 'به مـاهــ آرامــ',
+                                style: textTheme.titleMedium!.copyWith(
+                                  fontFamily: 'Plasma',
+                                  fontSize: 40,
+                                  color: AppSolidColors.primary,
+                                ),
+                              ),
+                            ]
+                          ),
+                        ),
+                
+                        Text(
+                          'روزِ خوبــی رو بـراتــون آرزومنـدیمــ',
+                          style: textTheme.bodySmall!.copyWith(
+                            color: Colors.black.withValues(alpha: .5),
+                            fontSize: 16,
+                          ),
+                        ),
+                      ],
+                    ),
+                
+                    const SizedBox(height: 28),
+                
+                    // Cards
+                    Column(
+                      children: [
+                        // Dual Cards in a Row
+                        SizedBox(
+                          height: size.height * .28,
+                          child: Row(
+                            spacing: 20,
+                            children: [
+                              welcomeCategoryBannerCard(
+                                size,
+                                textTheme,
+                                const Color(0xffFFC97E),
+                                Assets.images.banners.relaxationBanner.path,
+                                'آرامـش بخــش',
+                                'موسیقــی',
+                                '3-5 دقیقه',
+                                const Color(0xff3F414E),
+                                const Color(0xffffffff),
+                                const Color(0xff000000),
+                              ),
+                
+                              welcomeCategoryBannerCard(
+                                size,
+                                textTheme,
+                                const Color(0xff8E97FD),
+                                Assets.images.banners.basicsBanner.path,
+                                'شـروع تـازه',
+                                'آموزشــی',
+                                '5-10 دقیقه',
+                                const Color(0xffEBEAEC),
+                                const Color(0xff3F414E),
+                                const Color(0xffffffff)
+                              ),
+                            ],
+                          ),
+                        ),
+
+                        const SizedBox(height: 20),
+                
+                        // Horizontal Card Slider
+                        SizedBox(
+                          width: size.width,
+                          height: size.height * .14,
+                          child: CarouselSlider.builder(
+                            itemCount: HomePodcastSlider.sliderItems.length,
+                            itemBuilder: (context, index, realIndex) {
+                
+                              final item = HomePodcastSlider.sliderItems[index];
+                
+                              return HomePodcastsSliderCard(item: item);
+                
+                            },
+                            options: CarouselOptions(
+                              viewportFraction: 1,
+                              enlargeCenterPage: true,
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+
+                    // Recommended Courses
+                  ],
+                ),
+              ),
+            ],
+          ),
+        )
+      ),
+    );
+  }
+
+  Expanded welcomeCategoryBannerCard(
+    Size size,
+    TextTheme textTheme,
+    Color bgcolor,
+    String image,
+    String title,
+    String category,
+    String time,
+    Color buttonBgColor,
+    Color buttonTextColor,
+    Color normalTextsColor,
+  ) {
+    return Expanded(
+      child: Container(
+        decoration: BoxDecoration(
+          color: bgcolor,
+          borderRadius: .circular(16),
+          image: DecorationImage(
+            image: AssetImage(image),
+            fit: .scaleDown,
+            alignment: .topRight
+          )
+        ),
+        height: double.infinity,
+        width: size.width / 1.5,
+        child: Stack(
+          alignment: .center,
+          children: [
+
+            // Title & Category
+            Positioned(
+              right: 16,
+              child: Column(
+                crossAxisAlignment: .start,
+                children: [
+                  Text(
+                    title,
+                    style: textTheme.titleMedium!.copyWith(
+                      fontSize: 16,
+                      fontWeight: .bold,
+                      color: normalTextsColor,
+                    ),
+                  ),
+                  Text(
+                    category,
+                    style: textTheme.labelSmall!.copyWith(
+                      fontSize: 14,
+                      color: normalTextsColor,
+                    ),
+                  )
+                ],
+              ),
+            ),
+
+
+            // Time Length & Button
+            Positioned(
+              bottom: 16,
+              right: 16,
+              left: 16,
+              child: Column(
+                spacing: 8,
+                crossAxisAlignment: .start,
+                children: [
+                  Text(
+                    time,
+                    style: textTheme.labelSmall!.copyWith(
+                      fontSize: 14,
+                      color: normalTextsColor,
+                    ),
+                  ),
+                  Container(
+                    padding: EdgeInsets.all(8),
+                    alignment: .center,
+                    width: double.infinity,
+                    decoration: BoxDecoration(
+                      color: buttonBgColor,
+                      borderRadius: .circular(8)
+                    ),
+                    child: Text(
+                      'شروع',
+                      style: textTheme.labelSmall!.copyWith(
+                        color: buttonTextColor
+                      ),
+                    )
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
