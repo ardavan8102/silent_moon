@@ -17,6 +17,10 @@ class $AssetsImagesGen {
   /// File path: assets/images/birds.png
   AssetGenImage get birds => const AssetGenImage('assets/images/birds.png');
 
+  /// File path: assets/images/choose_topic_overlay.png
+  AssetGenImage get chooseTopicOverlay =>
+      const AssetGenImage('assets/images/choose_topic_overlay.png');
+
   /// File path: assets/images/logo.png
   AssetGenImage get logo => const AssetGenImage('assets/images/logo.png');
 
@@ -28,6 +32,10 @@ class $AssetsImagesGen {
   AssetGenImage get meditation =>
       const AssetGenImage('assets/images/meditation.png');
 
+  /// File path: assets/images/reduce_stress_bg.png
+  AssetGenImage get reduceStressBg =>
+      const AssetGenImage('assets/images/reduce_stress_bg.png');
+
   /// File path: assets/images/splash_background.png
   AssetGenImage get splashBackground =>
       const AssetGenImage('assets/images/splash_background.png');
@@ -38,11 +46,52 @@ class $AssetsImagesGen {
   /// List of all assets
   List<AssetGenImage> get values => [
     birds,
+    chooseTopicOverlay,
     logo,
     logoText,
     meditation,
+    reduceStressBg,
     splashBackground,
     welcome,
+  ];
+}
+
+class $AssetsSvgGen {
+  const $AssetsSvgGen();
+
+  /// Directory path: assets/svg/topics
+  $AssetsSvgTopicsGen get topics => const $AssetsSvgTopicsGen();
+}
+
+class $AssetsSvgTopicsGen {
+  const $AssetsSvgTopicsGen();
+
+  /// File path: assets/svg/topics/better_sleep.svg
+  String get betterSleep => 'assets/svg/topics/better_sleep.svg';
+
+  /// File path: assets/svg/topics/improve_performance.svg
+  String get improvePerformance => 'assets/svg/topics/improve_performance.svg';
+
+  /// File path: assets/svg/topics/increase_happiness.svg
+  String get increaseHappiness => 'assets/svg/topics/increase_happiness.svg';
+
+  /// File path: assets/svg/topics/personal_growth.svg
+  String get personalGrowth => 'assets/svg/topics/personal_growth.svg';
+
+  /// File path: assets/svg/topics/reduce_anxiety.svg
+  String get reduceAnxiety => 'assets/svg/topics/reduce_anxiety.svg';
+
+  /// File path: assets/svg/topics/reduce_stress.svg
+  String get reduceStress => 'assets/svg/topics/reduce_stress.svg';
+
+  /// List of all assets
+  List<String> get values => [
+    betterSleep,
+    improvePerformance,
+    increaseHappiness,
+    personalGrowth,
+    reduceAnxiety,
+    reduceStress,
   ];
 }
 
@@ -50,6 +99,7 @@ class Assets {
   const Assets._();
 
   static const $AssetsImagesGen images = $AssetsImagesGen();
+  static const $AssetsSvgGen svg = $AssetsSvgGen();
 }
 
 class AssetGenImage {

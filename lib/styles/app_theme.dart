@@ -35,6 +35,12 @@ class AppTheme {
         fontWeight: .bold,
       ),
 
+      labelSmall: TextStyle(
+        fontSize: 16,
+        fontFamily: 'Dana',
+        fontWeight: .w400
+      ),
+
       // Bodies
       bodySmall: TextStyle(
         fontFamily: 'Dana',

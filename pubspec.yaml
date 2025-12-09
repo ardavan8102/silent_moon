@@ -1,6 +1,6 @@
 name: silent_moon
 description: "A new Flutter project."
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
@@ -12,6 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_gen: ^5.12.0
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_svg: ^2.2.3
   get: ^4.7.3
 
 dev_dependencies:
@@ -20,7 +22,6 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
@@ -31,7 +32,15 @@ flutter:
     - assets/images/birds.png
     - assets/images/welcome.png
     - assets/images/meditation.png
-  
+    - assets/images/choose_topic_overlay.png
+    - assets/images/reduce_stress_bg.png
+    - assets/svg/topics/improve_performance.svg
+    - assets/svg/topics/reduce_stress.svg
+    - assets/svg/topics/reduce_anxiety.svg
+    - assets/svg/topics/better_sleep.svg
+    - assets/svg/topics/personal_growth.svg
+    - assets/svg/topics/increase_happiness.svg
+
   fonts:
     - family: Plasma
       fonts:
