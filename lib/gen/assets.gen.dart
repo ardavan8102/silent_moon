@@ -39,6 +39,10 @@ class $AssetsImagesGen {
   AssetGenImage get meditation =>
       const AssetGenImage('assets/images/meditation.png');
 
+  /// Directory path: assets/images/podcast_covers
+  $AssetsImagesPodcastCoversGen get podcastCovers =>
+      const $AssetsImagesPodcastCoversGen();
+
   /// File path: assets/images/reduce_stress_bg.png
   AssetGenImage get reduceStressBg =>
       const AssetGenImage('assets/images/reduce_stress_bg.png');
@@ -92,6 +96,21 @@ class $AssetsImagesBannersGen {
     relaxationBanner,
     sliderHomeBg,
   ];
+}
+
+class $AssetsImagesPodcastCoversGen {
+  const $AssetsImagesPodcastCoversGen();
+
+  /// File path: assets/images/podcast_covers/focus.png
+  AssetGenImage get focus =>
+      const AssetGenImage('assets/images/podcast_covers/focus.png');
+
+  /// File path: assets/images/podcast_covers/happiness.png
+  AssetGenImage get happiness =>
+      const AssetGenImage('assets/images/podcast_covers/happiness.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [focus, happiness];
 }
 
 class $AssetsSvgTopicsGen {

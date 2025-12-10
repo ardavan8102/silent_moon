@@ -2,14 +2,17 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:silent_moon/components/home_podcasts_slider_card.dart';
+import 'package:silent_moon/components/podcast_list_view_card.dart';
 import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/controllers/home_controller.dart';
+import 'package:silent_moon/controllers/podcast_controller.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
 
   final HomeController homeController = Get.find<HomeController>();
+  final PodcastController podcastController = Get.find<PodcastController>();
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +30,7 @@ class HomeScreen extends StatelessWidget {
             children: [
               // Content
               SingleChildScrollView(
-                physics: BouncingScrollPhysics(),
+                physics: ClampingScrollPhysics(),
                 child: Column(
                   crossAxisAlignment: .start,
                   children: [
@@ -41,113 +44,26 @@ class HomeScreen extends StatelessWidget {
                     const SizedBox(height: 40),
                     
                     // Greetings Text
-                    Column(
-                      spacing: 2,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text.rich(
-                          TextSpan(
-                            children: [
-                              TextSpan(
-                                text: 'خوش آمدید',
-                                style: textTheme.titleMedium!.copyWith(
-                                  fontFamily: 'Plasma',
-                                  fontSize: 40,
-                                ),
-                              ),
-                
-                              WidgetSpan(child: SizedBox(width: 6)),
-                
-                              TextSpan(
-                                text: 'به مـاهــ آرامــ',
-                                style: textTheme.titleMedium!.copyWith(
-                                  fontFamily: 'Plasma',
-                                  fontSize: 40,
-                                  color: AppSolidColors.primary,
-                                ),
-                              ),
-                            ]
-                          ),
-                        ),
-                
-                        Text(
-                          'روزِ خوبــی رو بـراتــون آرزومنـدیمــ',
-                          style: textTheme.bodySmall!.copyWith(
-                            color: Colors.black.withValues(alpha: .5),
-                            fontSize: 16,
-                          ),
-                        ),
-                      ],
-                    ),
+                    greetingsTitleText(textTheme),
                 
                     const SizedBox(height: 28),
                 
                     // Cards
-                    Column(
-                      children: [
-                        // Dual Cards in a Row
-                        SizedBox(
-                          height: size.height * .28,
-                          child: Row(
-                            spacing: 20,
-                            children: [
-                              welcomeCategoryBannerCard(
-                                size,
-                                textTheme,
-                                const Color(0xffFFC97E),
-                                Assets.images.banners.relaxationBanner.path,
-                                'آرامـش بخــش',
-                                'موسیقــی',
-                                '3-5 دقیقه',
-                                const Color(0xff3F414E),
-                                const Color(0xffffffff),
-                                const Color(0xff000000),
-                              ),
-                
-                              welcomeCategoryBannerCard(
-                                size,
-                                textTheme,
-                                const Color(0xff8E97FD),
-                                Assets.images.banners.basicsBanner.path,
-                                'شـروع تـازه',
-                                'آموزشــی',
-                                '5-10 دقیقه',
-                                const Color(0xffEBEAEC),
-                                const Color(0xff3F414E),
-                                const Color(0xffffffff)
-                              ),
-                            ],
-                          ),
-                        ),
+                    homeDualAndSliderCards(size, textTheme),
 
-                        const SizedBox(height: 20),
-                
-                        // Horizontal Card Slider
-                        Obx(
-                          () => homeController.isLoading.value == false
-                          ? SizedBox(
-                            width: size.width,
-                            height: size.height * .14,
-                            child: CarouselSlider.builder(
-                              itemCount: homeController.slides.length,
-                              itemBuilder: (context, index, realIndex) {
-                                          
-                                final item = homeController.slides[index];
-                                          
-                                return HomePodcastsSliderCard(item: item);
-                                          
-                              },
-                              options: CarouselOptions(
-                                viewportFraction: 1,
-                                enlargeCenterPage: true,
-                              ),
-                            ),
-                          ) : const Center(child: CircularProgressIndicator()),
-                        )
-                      ],
-                    ),
+                    const SizedBox(height: 40),
 
                     // Recommended Courses
+                    Text(
+                      'آمـوزش هـای پیشنـهـادی',
+                      style: textTheme.titleMedium!.copyWith(
+                        fontWeight: .bold,
+                      ),
+                    ),
+
+                    const SizedBox(height: 20),
+
+                    recommendedPodcastsListView(size),
                   ],
                 ),
               ),
@@ -155,6 +71,137 @@ class HomeScreen extends StatelessWidget {
           ),
         )
       ),
+    );
+  }
+
+  SizedBox recommendedPodcastsListView(Size size) {
+    return SizedBox(
+      width: size.width,
+      height: size.height * .25,
+      child: Obx(
+        () => ListView.builder(
+          itemCount: podcastController.podcastsList.length,
+          scrollDirection: .horizontal,
+          itemBuilder: (context, index) {
+            final item = podcastController.podcastsList[index];
+            return Padding(
+              padding: index == 0
+                ? const EdgeInsetsGeometry.only(left: 10)
+                : index == podcastController.podcastsList.length - 1
+                  ? const EdgeInsetsGeometry.only(right: 10)
+                  : const EdgeInsets.only(right: 10, left: 10),
+              child: PodcastListViewCard(podcast: item),
+            );
+          },
+        ),
+      ),
+    );
+  }
+
+  Column homeDualAndSliderCards(Size size, TextTheme textTheme) {
+    return Column(
+      children: [
+        // Dual Cards in a Row
+        SizedBox(
+          height: size.height * .28,
+          child: Row(
+            spacing: 20,
+            children: [
+              welcomeCategoryBannerCard(
+                size,
+                textTheme,
+                const Color(0xffFFC97E),
+                Assets.images.banners.relaxationBanner.path,
+                'آرامـش بخــش',
+                'موسیقــی',
+                '3-5 دقیقه',
+                const Color(0xff3F414E),
+                const Color(0xffffffff),
+                const Color(0xff000000),
+              ),
+
+              welcomeCategoryBannerCard(
+                size,
+                textTheme,
+                const Color(0xff8E97FD),
+                Assets.images.banners.basicsBanner.path,
+                'شـروع تـازه',
+                'آموزشــی',
+                '5-10 دقیقه',
+                const Color(0xffEBEAEC),
+                const Color(0xff3F414E),
+                const Color(0xffffffff)
+              ),
+            ],
+          ),
+        ),
+
+        const SizedBox(height: 30),
+
+        // Horizontal Card Slider
+        Obx(
+          () => homeController.isLoading.value == false
+          ? SizedBox(
+            width: size.width,
+            height: size.height * .14,
+            child: CarouselSlider.builder(
+              itemCount: homeController.slides.length,
+              itemBuilder: (context, index, realIndex) {
+                          
+                final item = homeController.slides[index];
+                          
+                return HomePodcastsSliderCard(item: item);
+                          
+              },
+              options: CarouselOptions(
+                viewportFraction: 1,
+                enlargeCenterPage: true,
+              ),
+            ),
+          ) : const Center(child: CircularProgressIndicator()),
+        )
+      ],
+    );
+  }
+
+  Column greetingsTitleText(TextTheme textTheme) {
+    return Column(
+      spacing: 2,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text.rich(
+          TextSpan(
+            children: [
+              TextSpan(
+                text: 'خوش آمدید',
+                style: textTheme.titleMedium!.copyWith(
+                  fontFamily: 'Plasma',
+                  fontSize: 40,
+                ),
+              ),
+
+              WidgetSpan(child: SizedBox(width: 6)),
+
+              TextSpan(
+                text: 'به مـاهــ آرامــ',
+                style: textTheme.titleMedium!.copyWith(
+                  fontFamily: 'Plasma',
+                  fontSize: 40,
+                  color: AppSolidColors.primary,
+                ),
+              ),
+            ]
+          ),
+        ),
+
+        Text(
+          'روزِ خوبــی رو بـراتــون آرزومنـدیمــ',
+          style: textTheme.bodySmall!.copyWith(
+            color: Colors.black.withValues(alpha: .5),
+            fontSize: 16,
+          ),
+        ),
+      ],
     );
   }
 

@@ -34,6 +34,8 @@ flutter:
     - assets/images/birds.png
     - assets/images/welcome.png
     - assets/images/meditation.png
+    - assets/images/podcast_covers/focus.png
+    - assets/images/podcast_covers/happiness.png
     - assets/images/banners/relaxation_banner.png
     - assets/images/banners/slider_home_bg.png
     - assets/images/banners/basics_banner.png
