@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
+import 'package:silent_moon/models/slider_model.dart';
 
 class HomePodcastsSliderCard extends StatelessWidget {
-  final Map<String, dynamic> item;
+  final SliderModel item;
   const HomePodcastsSliderCard({super.key, required this.item});
 
   @override
@@ -16,7 +17,7 @@ class HomePodcastsSliderCard extends StatelessWidget {
       width: double.infinity,
       height: .infinity,
       decoration: BoxDecoration(
-        color: Color(item['color']),
+        color: item.color,
         borderRadius: .circular(20),
         image: DecorationImage(
           image: AssetImage(Assets.images.banners.sliderHomeBg.path),
@@ -34,7 +35,7 @@ class HomePodcastsSliderCard extends StatelessWidget {
             spacing: 10,
             children: [
               Text(
-                item['title'],
+                item.title,
                 style: textTheme.labelLarge!.copyWith(
                   color: AppSolidColors.lightText,
                 ),
@@ -43,14 +44,14 @@ class HomePodcastsSliderCard extends StatelessWidget {
               Row(
                 children: [
                   Text(
-                    '${item['cat_name']} • ',
+                    '${item.category} • ',
                     style: textTheme.labelSmall!.copyWith(
                       color: AppSolidColors.lightText,
                     ),
                   ),
 
                   Text(
-                    item['time'],
+                    item.duration,
                     style: textTheme.labelSmall!.copyWith(
                       color: AppSolidColors.lightText,
                     ),

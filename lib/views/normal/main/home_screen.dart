@@ -1,12 +1,15 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:silent_moon/components/home_podcasts_slider_card.dart';
 import 'package:silent_moon/consts/colors.dart';
-import 'package:silent_moon/data/home_podcast_slider.dart';
+import 'package:silent_moon/controllers/home_controller.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  HomeScreen({super.key});
+
+  final HomeController homeController = Get.find<HomeController>();
 
   @override
   Widget build(BuildContext context) {
@@ -120,23 +123,26 @@ class HomeScreen extends StatelessWidget {
                         const SizedBox(height: 20),
                 
                         // Horizontal Card Slider
-                        SizedBox(
-                          width: size.width,
-                          height: size.height * .14,
-                          child: CarouselSlider.builder(
-                            itemCount: HomePodcastSlider.sliderItems.length,
-                            itemBuilder: (context, index, realIndex) {
-                
-                              final item = HomePodcastSlider.sliderItems[index];
-                
-                              return HomePodcastsSliderCard(item: item);
-                
-                            },
-                            options: CarouselOptions(
-                              viewportFraction: 1,
-                              enlargeCenterPage: true,
+                        Obx(
+                          () => homeController.isLoading.value == false
+                          ? SizedBox(
+                            width: size.width,
+                            height: size.height * .14,
+                            child: CarouselSlider.builder(
+                              itemCount: homeController.slides.length,
+                              itemBuilder: (context, index, realIndex) {
+                                          
+                                final item = homeController.slides[index];
+                                          
+                                return HomePodcastsSliderCard(item: item);
+                                          
+                              },
+                              options: CarouselOptions(
+                                viewportFraction: 1,
+                                enlargeCenterPage: true,
+                              ),
                             ),
-                          ),
+                          ) : const Center(child: CircularProgressIndicator()),
                         )
                       ],
                     ),

@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:silent_moon/bindings.dart';
 import 'package:silent_moon/views/normal/intro/choose_topic.dart';
 import 'package:silent_moon/views/normal/intro/set_reminders.dart';
 import 'package:silent_moon/views/normal/intro/welcome.dart';
@@ -42,7 +43,8 @@ class AppPages {
 
     GetPage(
       name: AppRoutes.home,
-      page: () => HomeScreen()
+      page: () => HomeScreen(),
+      binding: HomeScreenBindings(),
     ),
 
   ];
