@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get/get.dart';
 import 'package:silent_moon/models/podcast_model.dart';
+import 'package:silent_moon/services/dio_service.dart';
 
 class PodcastController extends GetxController {
   final RxBool isLoading = true.obs;
@@ -22,17 +22,7 @@ class PodcastController extends GetxController {
     'biography': <PodcastModel>[].obs,
   };
   
-  List<PodcastModel> get allPodcasts { return categoryLists.values.expand((list) => list).toList();}
-
-  final Dio dio = Dio(
-    BaseOptions(
-      baseUrl: dotenv.env['BASE_URL']!,
-      headers: {
-        'X-ListenAPI-Key': dotenv.env['API_KEY'],
-        'Accept': 'application/json',
-      },
-    ),
-  );
+  final RxList<PodcastModel> allPodcasts = <PodcastModel>[].obs;
 
   @override
   void onInit() {
@@ -70,7 +60,7 @@ class PodcastController extends GetxController {
 
   Future<void> loadCategory(String category) async {
     try {
-      final response = await dio.get(
+      final response = await DioService().dio.get(
         '/search',
         queryParameters: {
           'q': category,
@@ -97,10 +87,20 @@ class PodcastController extends GetxController {
       }
 
       categoryLists[category]!.assignAll(items);
+      updateAllPodcasts();
     } catch (e) {
       print("Error loading '$category': $e");
     }
   }
+
+  void updateAllPodcasts() {
+    final merged = categoryLists.values
+        .expand((list) => list)
+        .toList();
+
+    allPodcasts.assignAll(merged);
+  }
+
 
   Future<void> loadAllCategories() async {
     isLoading.value = true;

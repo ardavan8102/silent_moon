@@ -7,6 +7,7 @@ import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/consts/strings.dart';
 import 'package:silent_moon/controllers/podcast_controller.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
+import 'package:silent_moon/models/podcast_model.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({super.key});
@@ -102,13 +103,15 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  SizedBox podcastListViewBuilder(Size size, var list) {
+  SizedBox podcastListViewBuilder(Size size, RxList<PodcastModel>? list) {
     return SizedBox(
       width: size.width,
       height: size.height * .3,
       child: Obx(
         () => ListView.builder(
-          itemCount: list.length,
+          itemCount: list!.length > 8 
+            ? 8
+            : list.length,
           scrollDirection: .horizontal,
           itemBuilder: (context, index) {
             final item = list[index];
