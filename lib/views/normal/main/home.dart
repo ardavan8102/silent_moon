@@ -64,7 +64,7 @@ class HomePage extends StatelessWidget {
   SizedBox recommendedPodcastsListView(Size size) {
     return SizedBox(
       width: size.width,
-      height: size.height * .25,
+      height: size.height * .3,
       child: Obx(
         () => ListView.builder(
           itemCount: podcastController.podcastsList.length,

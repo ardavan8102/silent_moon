@@ -13,8 +13,6 @@ class HomePodcastsSliderCard extends StatelessWidget {
     var textTheme = Theme.of(context).textTheme;
 
     return Container(
-      width: double.infinity,
-      height: .infinity,
       decoration: BoxDecoration(
         borderRadius: .circular(20),
         image: DecorationImage(
@@ -23,12 +21,22 @@ class HomePodcastsSliderCard extends StatelessWidget {
         )
       ),
       child: Container(
+        width: double.infinity,
+        height: .infinity,
         padding: const EdgeInsets.fromLTRB(24, 12, 24, 12),
         decoration: BoxDecoration(
           borderRadius: .circular(20),
           image: DecorationImage(
             image: AssetImage(Assets.images.banners.sliderHomeBg.path),
             fit: .cover
+          ),
+          gradient: LinearGradient(
+            colors: [
+              Colors.black,
+              Colors.black.withValues(alpha: .2)
+            ],
+            begin: .bottomCenter,
+            end: .topCenter
           )
         ),
         child: Row(
@@ -36,36 +44,33 @@ class HomePodcastsSliderCard extends StatelessWidget {
           mainAxisAlignment: .spaceBetween,
           children: [
             // Texts
-            Column(
-              mainAxisAlignment: .center,
-              crossAxisAlignment: .start,
-              spacing: 10,
-              children: [
-                Text(
-                  item.title!,
-                  style: textTheme.labelLarge!.copyWith(
-                    color: AppSolidColors.lightText,
+            Expanded(
+              child: Column(
+                mainAxisAlignment: .center,
+                crossAxisAlignment: .start,
+                spacing: 10,
+                children: [
+                  Text(
+                    item.title!,
+                    style: textTheme.labelLarge!.copyWith(
+                      color: AppSolidColors.lightText,
+                    ),
+                    maxLines: 1,
+                    overflow: .ellipsis,
                   ),
-                ),
-        
-                Row(
-                  children: [
-                    Text(
-                      '${item.publisher} • ',
+                      
+                  Flexible(
+                    child: Text(
+                      '${item.publisher}',
                       style: textTheme.labelSmall!.copyWith(
                         color: AppSolidColors.lightText,
                       ),
+                      maxLines: 1,
+                      overflow: .ellipsis,
                     ),
-        
-                    Text(
-                      item.audioLengthSec!.toString(),
-                      style: textTheme.labelSmall!.copyWith(
-                        color: AppSolidColors.lightText,
-                      ),
-                    ),
-                  ],
-                ),
-              ],
+                  ),
+                ],
+              ),
             ),
         
             // Play Icon

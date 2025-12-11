@@ -17,16 +17,16 @@ class PodcastListViewCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: .start,
         children: [
-          Expanded(
-            child: Container(
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: NetworkImage(podcast.image!),
-                  fit: .cover,
-                  alignment: .topCenter
-                ),
-                borderRadius: .circular(20)
+          Container(
+            height: 150,
+            width: size.width * .5,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: NetworkImage(podcast.image!),
+                fit: .cover,
+                alignment: .topCenter
               ),
+              borderRadius: .circular(20)
             ),
           ),
 
@@ -38,30 +38,29 @@ class PodcastListViewCard extends StatelessWidget {
               fontSize: 30,
               color: AppSolidColors.primary
             ),
+            maxLines: 1,
+            overflow: .ellipsis,
           ),
 
-          Row(
+          Column(
+            crossAxisAlignment: .start,
             children: [
-              Flexible(
-                child: Text(
-                  '${podcast.publisher} • ',
-                  style: textTheme.labelSmall!.copyWith(
-                    color: AppSolidColors.darkText,
-                  ),
-                  overflow: .ellipsis,
-                  maxLines: 1,
+              Text(
+                '${podcast.publisher}',
+                style: textTheme.labelSmall!.copyWith(
+                  color: AppSolidColors.darkText,
                 ),
+                overflow: .ellipsis,
+                maxLines: 1,
               ),
 
-              Flexible(
-                child: Text(
-                  podcast.audioLengthSec!.toString(),
-                  style: textTheme.labelSmall!.copyWith(
-                    color: AppSolidColors.darkText,
-                  ),
-                  overflow: .ellipsis,
-                  maxLines: 1,
+              Text(
+                '${podcast.audioLengthSec! ~/ 60} دقیقه',
+                style: textTheme.labelSmall!.copyWith(
+                  color: AppSolidColors.darkText,
                 ),
+                overflow: .ellipsis,
+                maxLines: 1,
               ),
             ],
           ),
