@@ -8,8 +8,8 @@ import 'package:silent_moon/controllers/home_controller.dart';
 import 'package:silent_moon/controllers/podcast_controller.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
 
-class HomeScreen extends StatelessWidget {
-  HomeScreen({super.key});
+class HomePage extends StatelessWidget {
+  HomePage({super.key});
 
   final HomeController homeController = Get.find<HomeController>();
   final PodcastController podcastController = Get.find<PodcastController>();
@@ -19,57 +19,46 @@ class HomeScreen extends StatelessWidget {
 
     var size = MediaQuery.of(context).size;
     var textTheme = Theme.of(context).textTheme;
-
-    return Scaffold(
-      body: SafeArea(
-        child: Container(
-          padding: EdgeInsets.all(24),
-          width: size.width,
-          height: size.height,
-          child: Stack(
-            children: [
-              // Content
-              SingleChildScrollView(
-                physics: ClampingScrollPhysics(),
-                child: Column(
-                  crossAxisAlignment: .start,
-                  children: [
-                    SizedBox(height: size.height * .02),
-                
-                    // Logo
-                    Center(
-                      child: Image.asset(Assets.images.logoTextDark.path),
-                    ),
-                
-                    const SizedBox(height: 40),
-                    
-                    // Greetings Text
-                    greetingsTitleText(textTheme),
-                
-                    const SizedBox(height: 28),
-                
-                    // Cards
-                    homeDualAndSliderCards(size, textTheme),
-
-                    const SizedBox(height: 40),
-
-                    // Recommended Courses
-                    Text(
-                      'آمـوزش هـای پیشنـهـادی',
-                      style: textTheme.titleMedium!.copyWith(
-                        fontWeight: .bold,
-                      ),
-                    ),
-
-                    const SizedBox(height: 20),
-
-                    recommendedPodcastsListView(size),
-                  ],
-                ),
+    
+    return SingleChildScrollView(
+      physics: ClampingScrollPhysics(),
+      child: Container(
+        color: Colors.white,
+        child: Column(
+          crossAxisAlignment: .start,
+          children: [
+            SizedBox(height: size.height * .02),
+        
+            // Logo
+            Center(
+              child: Image.asset(Assets.images.logoTextDark.path),
+            ),
+        
+            const SizedBox(height: 40),
+            
+            // Greetings Text
+            greetingsTitleText(textTheme),
+        
+            const SizedBox(height: 28),
+        
+            // Cards
+            homeDualAndSliderCards(size, textTheme),
+        
+            const SizedBox(height: 40),
+        
+            // Recommended Courses
+            Text(
+              'آمـوزش هـای پیشنـهـادی',
+              style: textTheme.titleMedium!.copyWith(
+                fontWeight: .bold,
               ),
-            ],
-          ),
-        )
+            ),
+        
+            const SizedBox(height: 20),
+        
+            recommendedPodcastsListView(size),
+          ],
+        ),
       ),
     );
   }
