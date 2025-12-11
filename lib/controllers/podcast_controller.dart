@@ -4,15 +4,26 @@ import 'package:get/get.dart';
 import 'package:silent_moon/models/podcast_model.dart';
 
 class PodcastController extends GetxController {
-  final RxList<PodcastModel> podcastsList = <PodcastModel>[].obs;
-
   final RxBool isLoading = true.obs;
-  final RxBool isRefreshing = false.obs;
 
-  int offset = 0;
-  final int limit = 10;
+  final List<String> categories = [
+    'relaxing',
+    'sleeping',
+    'happiness',
+    'personal',
+    'biography',
+  ];
 
-  // Dio instance
+  final Map<String, RxList<PodcastModel>> categoryLists = {
+    'relaxing': <PodcastModel>[].obs,
+    'sleeping': <PodcastModel>[].obs,
+    'happiness': <PodcastModel>[].obs,
+    'personal': <PodcastModel>[].obs,
+    'biography': <PodcastModel>[].obs,
+  };
+  
+  List<PodcastModel> get allPodcasts { return categoryLists.values.expand((list) => list).toList();}
+
   final Dio dio = Dio(
     BaseOptions(
       baseUrl: dotenv.env['BASE_URL']!,
@@ -26,10 +37,10 @@ class PodcastController extends GetxController {
   @override
   void onInit() {
     super.onInit();
-    loadRelaxingPodcasts();
+    loadAllCategories();
   }
 
-  // Translate
+  // 🔵 Translate
   Future<String> translateToFa(String text) async {
     try {
       final res = await Dio().get(
@@ -45,8 +56,7 @@ class PodcastController extends GetxController {
       );
 
       final sentences = res.data["sentences"] as List;
-      final translated = sentences.map((s) => s["trans"] ?? "").join(" ").trim();
-      return translated;
+      return sentences.map((s) => s["trans"] ?? "").join(" ").trim();
     } catch (e) {
       print("Translate error: $e");
       return text;
@@ -58,21 +68,18 @@ class PodcastController extends GetxController {
     return english > faText.length * 0.30;
   }
 
-  Future<void> loadRelaxingPodcasts() async {
+  Future<void> loadCategory(String category) async {
     try {
-      isLoading.value = true;
-
       final response = await dio.get(
         '/search',
         queryParameters: {
-          'q': 'relaxing',
+          'q': category,
           'type': 'podcast',
-          'offset': offset,
+          'offset': 0,
         },
       );
 
       final List results = response.data['results'];
-
       final List<PodcastModel> items = [];
 
       for (var json in results) {
@@ -81,10 +88,7 @@ class PodcastController extends GetxController {
         if (model.title != null) {
           final translated = await translateToFa(model.title!);
 
-          if (isBadTranslation(translated)) {
-            print("❌ حذف شد → ترجمه ناقص: ${model.title}");
-            continue;
-          }
+          if (isBadTranslation(translated)) continue;
 
           model.title = translated;
         }
@@ -92,21 +96,19 @@ class PodcastController extends GetxController {
         items.add(model);
       }
 
-      podcastsList.assignAll(items);
+      categoryLists[category]!.assignAll(items);
     } catch (e) {
-      print('Error loading podcasts: $e');
-    } finally {
-      isLoading.value = false;
+      print("Error loading '$category': $e");
     }
   }
 
-  Future<void> refreshData() async {
-    try {
-      isRefreshing.value = true;
-      offset = 0;
-      await loadRelaxingPodcasts();
-    } finally {
-      isRefreshing.value = false;
+  Future<void> loadAllCategories() async {
+    isLoading.value = true;
+
+    for (var cat in categories) {
+      await loadCategory(cat);
     }
+
+    isLoading.value = false;
   }
 }

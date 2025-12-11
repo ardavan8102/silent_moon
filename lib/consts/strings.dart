@@ -15,5 +15,13 @@ class AppStrings {
   static const String weekdaySelectorTitleText = 'چـه روزیــ از هفتـه';
   static const String weekdaySelectorTitleSubText = 'برای مدیتیشنــ شما مناسبـه؟';
   static const String weekdaySelectorTitleDescription = 'هر روز بهتر است، اما توصیه می‌کنیم حداقل پنج مورد را انتخاب کنید.';
+
+
+  // Home page section titles
+  static const String allPodcasts = 'همــه پادکـستــ ها';
+  static const String biographyTitle = 'بیــوگرافــی و زنـدگــی';
+  static const String sleepTitle = 'یکــ خواب راحــت';
+  static const String happinessTitle = 'شــادی را پیــدا کنیــد';
+  static const String personalTitle = 'شخـصیتــ شنــاســی';
   
 }

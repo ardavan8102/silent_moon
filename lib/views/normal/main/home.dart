@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:silent_moon/components/home_podcasts_slider_card.dart';
 import 'package:silent_moon/components/podcast_list_view_card.dart';
 import 'package:silent_moon/consts/colors.dart';
+import 'package:silent_moon/consts/strings.dart';
 import 'package:silent_moon/controllers/podcast_controller.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
 
@@ -26,12 +27,12 @@ class HomePage extends StatelessWidget {
       child: Column(
         crossAxisAlignment: .start,
         children: [
-          SizedBox(height: size.height * .02),
+          //SizedBox(height: size.height * .02),
       
           // Logo
-          Center(
-            child: Image.asset(Assets.images.logoTextDark.path),
-          ),
+          // Center(
+          //   child: Image.asset(Assets.images.logoTextDark.path),
+          // ),
       
           const SizedBox(height: 40),
           
@@ -46,35 +47,75 @@ class HomePage extends StatelessWidget {
           const SizedBox(height: 40),
       
           // Recommended Courses
-          Text(
-            'آمـوزش هـای پیشنـهـادی',
-            style: textTheme.titleMedium!.copyWith(
-              fontWeight: .bold,
-            ),
-          ),
+          sectionListViewTitle(textTheme, AppStrings.allPodcasts),
       
           const SizedBox(height: 20),
       
-          recommendedPodcastsListView(size),
+          podcastListViewBuilder(size, podcastController.allPodcasts),
+
+          const SizedBox(height: 30),
+
+          // Biography
+          sectionListViewTitle(textTheme, AppStrings.biographyTitle),
+      
+          const SizedBox(height: 20),
+      
+          podcastListViewBuilder(size, podcastController.categoryLists['biography']),
+
+          const SizedBox(height: 30),
+
+          // Sleep
+          sectionListViewTitle(textTheme, AppStrings.sleepTitle),
+      
+          const SizedBox(height: 20),
+      
+          podcastListViewBuilder(size, podcastController.categoryLists['sleeping']),
+
+          const SizedBox(height: 30),
+
+          // Happiness
+          sectionListViewTitle(textTheme, AppStrings.happinessTitle),
+      
+          const SizedBox(height: 20),
+      
+          podcastListViewBuilder(size, podcastController.categoryLists['happiness']),
+
+          const SizedBox(height: 30),
+
+          // Personal
+          sectionListViewTitle(textTheme, AppStrings.personalTitle),
+      
+          const SizedBox(height: 20),
+      
+          podcastListViewBuilder(size, podcastController.categoryLists['personal']),
         ],
       ),
     );
   }
 
-  SizedBox recommendedPodcastsListView(Size size) {
+  Text sectionListViewTitle(TextTheme textTheme, String label) {
+    return Text(
+      label,
+      style: textTheme.titleMedium!.copyWith(
+        fontWeight: .bold,
+      ),
+    );
+  }
+
+  SizedBox podcastListViewBuilder(Size size, var list) {
     return SizedBox(
       width: size.width,
       height: size.height * .3,
       child: Obx(
         () => ListView.builder(
-          itemCount: podcastController.podcastsList.length,
+          itemCount: list.length,
           scrollDirection: .horizontal,
           itemBuilder: (context, index) {
-            final item = podcastController.podcastsList[index];
+            final item = list[index];
             return Padding(
               padding: index == 0
                 ? const EdgeInsetsGeometry.only(left: 10)
-                : index == podcastController.podcastsList.length - 1
+                : index == list.length - 1
                   ? const EdgeInsetsGeometry.only(right: 10)
                   : const EdgeInsets.only(right: 10, left: 10),
               child: PodcastListViewCard(podcast: item),
@@ -132,10 +173,10 @@ class HomePage extends StatelessWidget {
             width: size.width,
             height: size.height * .14,
             child: CarouselSlider.builder(
-              itemCount: podcastController.podcastsList.length,
+              itemCount: podcastController.categoryLists['relaxing']!.length,
               itemBuilder: (context, index, realIndex) {
                           
-                final item = podcastController.podcastsList[index];
+                final item = podcastController.categoryLists['relaxing']![index];
                           
                 return HomePodcastsSliderCard(item: item);
                           
