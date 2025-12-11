@@ -4,12 +4,12 @@ import 'package:silent_moon/views/normal/intro/choose_topic.dart';
 import 'package:silent_moon/views/normal/intro/set_reminders.dart';
 import 'package:silent_moon/views/normal/intro/welcome.dart';
 import 'package:silent_moon/views/normal/main/main_screen.dart';
-import 'package:silent_moon/views/sleep/sleep_splash.dart';
+import 'package:silent_moon/views/sleep/sleep_home.dart';
 
 class AppRoutes {
 
   static const welcome = '/';
-  static const sleepSplash = '/sleep-splash';
+  static const sleep = '/sleep';
   static const chooseTopic = '/choose-topic';
   static const setReminders = '/set-reminders';
   static const home = '/home';
@@ -27,8 +27,8 @@ class AppPages {
     ),
 
     GetPage(
-      name: AppRoutes.sleepSplash,
-      page: () => SplashScreen()
+      name: AppRoutes.sleep,
+      page: () => SleepHomePage()
     ),
 
     GetPage(

@@ -4,61 +4,59 @@ import 'package:get/get.dart';
 import 'package:silent_moon/components/home_podcasts_slider_card.dart';
 import 'package:silent_moon/components/podcast_list_view_card.dart';
 import 'package:silent_moon/consts/colors.dart';
-import 'package:silent_moon/controllers/home_controller.dart';
 import 'package:silent_moon/controllers/podcast_controller.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({super.key});
 
-  final HomeController homeController = Get.find<HomeController>();
   final PodcastController podcastController = Get.find<PodcastController>();
+  
 
   @override
   Widget build(BuildContext context) {
 
     var size = MediaQuery.of(context).size;
     var textTheme = Theme.of(context).textTheme;
+
+
     
-    return Container(
-      color: Colors.white,
-      child: SingleChildScrollView(
-        physics: ClampingScrollPhysics(),
-        child: Column(
-          crossAxisAlignment: .start,
-          children: [
-            SizedBox(height: size.height * .02),
-        
-            // Logo
-            Center(
-              child: Image.asset(Assets.images.logoTextDark.path),
+    return SingleChildScrollView(
+      physics: ClampingScrollPhysics(),
+      child: Column(
+        crossAxisAlignment: .start,
+        children: [
+          SizedBox(height: size.height * .02),
+      
+          // Logo
+          Center(
+            child: Image.asset(Assets.images.logoTextDark.path),
+          ),
+      
+          const SizedBox(height: 40),
+          
+          // Greetings Text
+          greetingsTitleText(textTheme),
+      
+          const SizedBox(height: 28),
+      
+          // Cards
+          homeDualAndSliderCards(size, textTheme),
+      
+          const SizedBox(height: 40),
+      
+          // Recommended Courses
+          Text(
+            'آمـوزش هـای پیشنـهـادی',
+            style: textTheme.titleMedium!.copyWith(
+              fontWeight: .bold,
             ),
-        
-            const SizedBox(height: 40),
-            
-            // Greetings Text
-            greetingsTitleText(textTheme),
-        
-            const SizedBox(height: 28),
-        
-            // Cards
-            homeDualAndSliderCards(size, textTheme),
-        
-            const SizedBox(height: 40),
-        
-            // Recommended Courses
-            Text(
-              'آمـوزش هـای پیشنـهـادی',
-              style: textTheme.titleMedium!.copyWith(
-                fontWeight: .bold,
-              ),
-            ),
-        
-            const SizedBox(height: 20),
-        
-            recommendedPodcastsListView(size),
-          ],
-        ),
+          ),
+      
+          const SizedBox(height: 20),
+      
+          recommendedPodcastsListView(size),
+        ],
       ),
     );
   }
@@ -129,15 +127,15 @@ class HomePage extends StatelessWidget {
 
         // Horizontal Card Slider
         Obx(
-          () => homeController.isLoading.value == false
+          () => podcastController.isLoading.value == false
           ? SizedBox(
             width: size.width,
             height: size.height * .14,
             child: CarouselSlider.builder(
-              itemCount: homeController.slides.length,
+              itemCount: podcastController.podcastsList.length,
               itemBuilder: (context, index, realIndex) {
                           
-                final item = homeController.slides[index];
+                final item = podcastController.podcastsList[index];
                           
                 return HomePodcastsSliderCard(item: item);
                           

@@ -1,27 +1,32 @@
 class PodcastModel {
-
+  String? id;
   String? title;
-  String? category;
-  String? duration;
-  String? imagePath;
-  bool? isPopular;
-
+  String? description;
+  String? image;
+  String? audio;
+  int? audioLengthSec;
+  String? publisher;
+  String? url;
 
   PodcastModel({
-    required this.title,
-    required this.category,
-    required this.duration,
-    required this.imagePath,
-    required this.isPopular,
+    this.id,
+    this.title,
+    this.description,
+    this.image,
+    this.audio,
+    this.audioLengthSec,
+    this.publisher,
+    this.url,
   });
 
-
-  PodcastModel.fromJson(Map<String, dynamic> element) {
-    title = element['title'];
-    category = element['category'];
-    duration = element['duration'];
-    imagePath = element['image_path'];
-    isPopular = element['is_popular'];
+  PodcastModel.fromJson(Map<String, dynamic> json) {
+    id = json['id'];
+    title = json['title_original'];
+    description = json['description_original'];
+    image = json['image'];
+    audio = json['audio'];
+    audioLengthSec = json['audio_length_sec'];
+    publisher = json['publisher_original'];
+    url = json['listennotes_url'];
   }
-
 }

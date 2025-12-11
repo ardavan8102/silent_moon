@@ -6,6 +6,7 @@ class MainScreenHandler extends GetxController {
 
   void changeIndex(int index){
     selectedIndex.value = index;
+    update();
   }
 
 }

@@ -1,45 +1,69 @@
+import 'package:dio/dio.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get/get.dart';
-import 'package:silent_moon/data/podcasts.dart';
 import 'package:silent_moon/models/podcast_model.dart';
 
 class PodcastController extends GetxController {
 
   final RxList<PodcastModel> podcastsList = <PodcastModel>[].obs;
-
+  
   final RxBool isLoading = true.obs;
+  final RxBool isRefreshing = false.obs;
 
+  int offset = 0;
+  final int limit = 10;
+
+  final Dio dio = Dio(
+    BaseOptions(
+      baseUrl: dotenv.env['BASE_URL']!,
+      headers: {
+        'X-ListenAPI-Key': dotenv.env['API_KEY'],
+        'Accept': 'application/json',
+      },
+    ),
+  );
 
   @override
   void onInit() {
     super.onInit();
-    loadPodcastsData();
+    loadRelaxingPodcasts();
   }
 
-  Future<void> loadPodcastsData() async {
+  Future<void> loadRelaxingPodcasts() async {
+    try {
+      isLoading.value = true;
 
-    isLoading.value = true;
-
-    await Future.delayed(const Duration(milliseconds: 800)); // Simulate API Call
-
-    final items = PodcastsData.podcasts.map((item){
-      return PodcastModel(
-        title: item['title'],
-        category: item['category'],
-        duration: item['duration'],
-        imagePath: item['image_path'],
-        isPopular: item['is_popular']
+      final response = await dio.get(
+        '/search',
+        queryParameters: {
+          'q': 'relaxing',
+          'type': 'podcast',
+          'offset': offset,
+        },
       );
-    }).toList();
 
-    podcastsList.assignAll(items);
+      final List results = response.data['results'];
 
-    isLoading.value = false;
+      final items = results
+          .map((json) => PodcastModel.fromJson(json))
+          .toList()
+          .cast<PodcastModel>();
 
+      podcastsList.assignAll(items);
+    } catch (e) {
+      print('Error loading podcasts: $e');
+    } finally {
+      isLoading.value = false;
+    }
   }
 
   Future<void> refreshData() async {
-
-    await loadPodcastsData();
-
+    try {
+      isRefreshing.value = true;
+      offset = 0;
+      await loadRelaxingPodcasts();
+    } finally {
+      isRefreshing.value = false;
+    }
   }
 }

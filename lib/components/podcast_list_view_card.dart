@@ -21,7 +21,7 @@ class PodcastListViewCard extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage(podcast.imagePath!),
+                  image: NetworkImage(podcast.image!),
                   fit: .cover,
                   alignment: .topCenter
                 ),
@@ -44,7 +44,7 @@ class PodcastListViewCard extends StatelessWidget {
             children: [
               Flexible(
                 child: Text(
-                  '${podcast.category} • ',
+                  '${podcast.publisher} • ',
                   style: textTheme.labelSmall!.copyWith(
                     color: AppSolidColors.darkText,
                   ),
@@ -55,7 +55,7 @@ class PodcastListViewCard extends StatelessWidget {
 
               Flexible(
                 child: Text(
-                  podcast.duration!,
+                  podcast.audioLengthSec!.toString(),
                   style: textTheme.labelSmall!.copyWith(
                     color: AppSolidColors.darkText,
                   ),
