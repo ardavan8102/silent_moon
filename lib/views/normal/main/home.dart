@@ -20,10 +20,10 @@ class HomePage extends StatelessWidget {
     var size = MediaQuery.of(context).size;
     var textTheme = Theme.of(context).textTheme;
     
-    return SingleChildScrollView(
-      physics: ClampingScrollPhysics(),
-      child: Container(
-        color: Colors.white,
+    return Container(
+      color: Colors.white,
+      child: SingleChildScrollView(
+        physics: ClampingScrollPhysics(),
         child: Column(
           crossAxisAlignment: .start,
           children: [

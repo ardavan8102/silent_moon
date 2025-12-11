@@ -22,46 +22,45 @@ class MainScreen extends StatelessWidget {
     ];
 
     return Scaffold(
-      body: SafeArea(
-        child: SizedBox(
-          width: size.width,
-          height: size.height,
-          child: Stack(
-            children: [
-              // Contents
-              Positioned.fill(
-                child: Obx(
-                  () => Padding(
-                    padding: EdgeInsets.fromLTRB(24, 24, 24, size.height * .12),
-                    child: AnimatedSwitcher(
-                      duration: Duration(milliseconds: 400),
-                      transitionBuilder: (child, animation) {
-                        final offsetAnimation = Tween<Offset>(
-                          begin: Offset(0, 0.2),
-                          end: .zero,
-                        ).animate(
-                          CurvedAnimation(
-                            parent: animation,
-                            curve: Curves.easeOut
-                          )
-                        );
-
-                        return SlideTransition(
-                          position: offsetAnimation,
-                          child: child,
-                        );
-                      },
-                      child: pages[mainScreenHandler.selectedIndex.value],
-                    ),
+      body: Container(
+        color: Colors.white,
+        width: size.width,
+        height: size.height,
+        child: Stack(
+          children: [
+            // Contents
+            Positioned.fill(
+              child: Obx(
+                () => Padding(
+                  padding: EdgeInsets.fromLTRB(24, size.height * .05, 24, size.height * .125),
+                  child: AnimatedSwitcher(
+                    duration: Duration(milliseconds: 400),
+                    transitionBuilder: (child, animation) {
+                      final offsetAnimation = Tween<Offset>(
+                        begin: Offset(0, 0.2),
+                        end: .zero,
+                      ).animate(
+                        CurvedAnimation(
+                          parent: animation,
+                          curve: Curves.easeOut
+                        )
+                      );
+      
+                      return SlideTransition(
+                        position: offsetAnimation,
+                        child: child,
+                      );
+                    },
+                    child: pages[mainScreenHandler.selectedIndex.value],
                   ),
                 ),
               ),
-
-              // Bottom Navigation
-              CustomBottomNavigation(),
-            ],
-          ),
-        )
+            ),
+      
+            // Bottom Navigation
+            CustomBottomNavigation(),
+          ],
+        ),
       ),
     );
   }
