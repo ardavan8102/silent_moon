@@ -111,7 +111,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 bottom: 100,
                 child: ButtonFullWidth(
                   msg: AppStrings.getStartButtonText,
-                  bgcolor: AppSolidColors.lightButtonBackGround,
+                  bgcolor: AppSolidColors.lightBackGround,
                   function: (){
                     Get.offAndToNamed(AppRoutes.chooseTopic);
                   },

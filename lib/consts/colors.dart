@@ -11,7 +11,7 @@ class AppSolidColors {
 
 
   // For Light Theme
-  static const Color lightButtonBackGround = Color(0xffEBEAEC);
+  static const Color lightBackGround = Color(0xffEBEAEC);
   static const Color darkText = Color(0xff3F414E);
 
 }

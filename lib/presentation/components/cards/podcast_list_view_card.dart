@@ -1,9 +1,8 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/core/models/podcast_list_models/podcast_result.dart';
-import 'package:silent_moon/presentation/components/containers/empty_image_state.dart';
+import 'package:silent_moon/presentation/components/cached_image.dart';
 
 class PodcastListViewCard extends StatelessWidget {
   final PodcastResponseResult podcast;
@@ -20,30 +19,11 @@ class PodcastListViewCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: .start,
         children: [
-          CachedNetworkImage(
-            height: size.height * .15,
-            width: size.width * .5,
+          CachedThumbnailImage(
             imageUrl: podcast.cover,
-            imageBuilder: (context, imageProvider) {
-              return Container(
-                height: 150,
-                width: size.width * .5,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: imageProvider,
-                    fit: .cover,
-                    alignment: .center
-                  ),
-                  borderRadius: .circular(20)
-                ),
-              );
-            },
-            placeholder: (context, url) {
-              return const CircularProgressIndicator(
-                color: AppSolidColors.primary,
-              );
-            },
-            errorWidget: (context, url, error) => EmptyImageStateContainer(),
+            height: 150,
+            width: size.width * .5,
+            radius: 20,
           ),
 
           const SizedBox(height: 12),
@@ -96,3 +76,4 @@ class PodcastListViewCard extends StatelessWidget {
     );
   }
 }
+
