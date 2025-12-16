@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get/get.dart';
-import 'package:silent_moon/routes/routes.dart';
-import 'package:silent_moon/styles/app_theme.dart';
+import 'package:silent_moon/core/routes/routes.dart';
+import 'package:silent_moon/core/styles/app_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -18,10 +18,6 @@ class AppStrings {
 
 
   // Home page section titles
-  static const String allPodcasts = 'همــه پادکـستــ ها';
-  static const String biographyTitle = 'بیــوگرافــی و زنـدگــی';
-  static const String sleepTitle = 'یکــ خواب راحــت';
-  static const String happinessTitle = 'شــادی را پیــدا کنیــد';
-  static const String personalTitle = 'شخـصیتــ شنــاســی';
+  static const String newestPodcasts = 'جدیــدتــرین پادکـستــ ها';
   
 }

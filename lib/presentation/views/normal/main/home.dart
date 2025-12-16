@@ -1,13 +1,16 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:silent_moon/components/home_podcasts_slider_card.dart';
-import 'package:silent_moon/components/podcast_list_view_card.dart';
-import 'package:silent_moon/consts/colors.dart';
+import 'package:silent_moon/core/controllers/podcast_lists_by_cat_id_controller.dart';
+import 'package:silent_moon/core/models/podcasts/podcast_list_models/podcast_result.dart';
+import 'package:silent_moon/presentation/components/cards/home_podcasts_slider_card.dart';
+import 'package:silent_moon/presentation/components/texts/listview_section_title.dart';
+import 'package:silent_moon/presentation/components/texts/page_title.dart';
+import 'package:silent_moon/presentation/components/cards/podcast_list_view_card.dart';
 import 'package:silent_moon/consts/strings.dart';
-import 'package:silent_moon/controllers/podcast_controller.dart';
+import 'package:silent_moon/core/controllers/newest_podcast_controller.dart';
 import 'package:silent_moon/gen/assets.gen.dart';
-import 'package:silent_moon/models/podcast_model.dart';
+import 'package:silent_moon/services/dio_api_service.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({super.key});
@@ -21,89 +24,101 @@ class HomePage extends StatelessWidget {
     var size = MediaQuery.of(context).size;
     var textTheme = Theme.of(context).textTheme;
 
-
     
     return SingleChildScrollView(
       physics: ClampingScrollPhysics(),
       child: Column(
         crossAxisAlignment: .start,
         children: [
-          //SizedBox(height: size.height * .02),
       
-          // Logo
-          // Center(
-          //   child: Image.asset(Assets.images.logoTextDark.path),
-          // ),
-      
-          const SizedBox(height: 40),
+          const SizedBox(height: 20),
           
           // Greetings Text
-          greetingsTitleText(textTheme),
+          PageTitleWidget(texts: [
+            'خوش آمدید',
+            'به مـاهــ آرامــ',
+            'روزِ خوبــی رو بـراتــون آرزومنـدیمــ',
+          ]),
       
           const SizedBox(height: 28),
       
           // Cards
           homeDualAndSliderCards(size, textTheme),
       
-          const SizedBox(height: 40),
+          const SizedBox(height: 40), // Spacer
       
           // Recommended Courses
-          sectionListViewTitle(textTheme, AppStrings.allPodcasts),
+          ListviewSectionTitle(label: AppStrings.newestPodcasts),
       
           const SizedBox(height: 20),
       
-          podcastListViewBuilder(size, podcastController.allPodcasts),
+          newestPodcastListViewBuilder(size, podcastController.newestPodcasts),
 
-          const SizedBox(height: 30),
+          const SizedBox(height: 30), // Spacer
 
-          // Biography
-          sectionListViewTitle(textTheme, AppStrings.biographyTitle),
+          // 634
+          ListviewSectionTitle(label: 'کســـب و کــار'),
       
           const SizedBox(height: 20),
       
-          podcastListViewBuilder(size, podcastController.categoryLists['biography']),
+          podcastListViewBuilderWithCatId(size, 634),
 
-          const SizedBox(height: 30),
+          const SizedBox(height: 30), // Spacer
 
-          // Sleep
-          sectionListViewTitle(textTheme, AppStrings.sleepTitle),
+          // 637
+          ListviewSectionTitle(label: 'شعــر و داستـــان'),
       
           const SizedBox(height: 20),
       
-          podcastListViewBuilder(size, podcastController.categoryLists['sleeping']),
+          podcastListViewBuilderWithCatId(size, 637),
 
-          const SizedBox(height: 30),
+          const SizedBox(height: 30), // Spacer
 
-          // Happiness
-          sectionListViewTitle(textTheme, AppStrings.happinessTitle),
+
+          // 643
+          ListviewSectionTitle(label: 'ورزشـــ و سلامــتـــ'),
       
           const SizedBox(height: 20),
       
-          podcastListViewBuilder(size, podcastController.categoryLists['happiness']),
+          podcastListViewBuilderWithCatId(size, 643),
 
-          const SizedBox(height: 30),
-
-          // Personal
-          sectionListViewTitle(textTheme, AppStrings.personalTitle),
-      
-          const SizedBox(height: 20),
-      
-          podcastListViewBuilder(size, podcastController.categoryLists['personal']),
         ],
       ),
     );
   }
 
-  Text sectionListViewTitle(TextTheme textTheme, String label) {
-    return Text(
-      label,
-      style: textTheme.titleMedium!.copyWith(
-        fontWeight: .bold,
+
+  SizedBox podcastListViewBuilderWithCatId(Size size, int catId) {
+
+    final controller = Get.put(
+      PodcastListsByCatIdController(Get.find<DioApiService>(), catId),
+      tag: 'cat_$catId'
+    );
+
+    return SizedBox(
+      width: size.width,
+      height: size.height * .3,
+      child: Obx(
+        () => ListView.builder(
+          itemCount: controller.podcasts.length,
+          scrollDirection: .horizontal,
+          itemBuilder: (context, index) {
+            final item = controller.podcasts[index];
+            return Padding(
+              padding: index == 0
+                ? const EdgeInsetsGeometry.only(left: 10)
+                : index == controller.podcasts.length - 1
+                  ? const EdgeInsetsGeometry.only(right: 10)
+                  : const EdgeInsets.only(right: 10, left: 10),
+              child: PodcastListViewCard(podcast: item),
+            );
+          },
+        ),
       ),
     );
   }
 
-  SizedBox podcastListViewBuilder(Size size, RxList<PodcastModel>? list) {
+  SizedBox newestPodcastListViewBuilder(Size size, RxList<PodcastResponseResult>? list) {
     return SizedBox(
       width: size.width,
       height: size.height * .3,
@@ -171,15 +186,15 @@ class HomePage extends StatelessWidget {
 
         // Horizontal Card Slider
         Obx(
-          () => podcastController.isLoading.value == false
+          () => podcastController.loading.value == false
           ? SizedBox(
             width: size.width,
             height: size.height * .14,
             child: CarouselSlider.builder(
-              itemCount: podcastController.categoryLists['relaxing']!.length,
+              itemCount: podcastController.newestPodcasts.length,
               itemBuilder: (context, index, realIndex) {
                           
-                final item = podcastController.categoryLists['relaxing']![index];
+                final item = podcastController.newestPodcasts[index];
                           
                 return HomePodcastsSliderCard(item: item);
                           
@@ -191,47 +206,6 @@ class HomePage extends StatelessWidget {
             ),
           ) : const Center(child: CircularProgressIndicator()),
         )
-      ],
-    );
-  }
-
-  Column greetingsTitleText(TextTheme textTheme) {
-    return Column(
-      spacing: 2,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text.rich(
-          TextSpan(
-            children: [
-              TextSpan(
-                text: 'خوش آمدید',
-                style: textTheme.titleMedium!.copyWith(
-                  fontFamily: 'Plasma',
-                  fontSize: 40,
-                ),
-              ),
-
-              WidgetSpan(child: SizedBox(width: 6)),
-
-              TextSpan(
-                text: 'به مـاهــ آرامــ',
-                style: textTheme.titleMedium!.copyWith(
-                  fontFamily: 'Plasma',
-                  fontSize: 40,
-                  color: AppSolidColors.primary,
-                ),
-              ),
-            ]
-          ),
-        ),
-
-        Text(
-          'روزِ خوبــی رو بـراتــون آرزومنـدیمــ',
-          style: textTheme.bodySmall!.copyWith(
-            color: Colors.black.withValues(alpha: .5),
-            fontSize: 16,
-          ),
-        ),
       ],
     );
   }

@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
 import 'package:silent_moon/bindings.dart';
-import 'package:silent_moon/views/normal/intro/choose_topic.dart';
-import 'package:silent_moon/views/normal/intro/set_reminders.dart';
-import 'package:silent_moon/views/normal/intro/welcome.dart';
-import 'package:silent_moon/views/normal/main/main_screen.dart';
-import 'package:silent_moon/views/sleep/sleep_home.dart';
+import 'package:silent_moon/presentation/views/normal/intro/choose_topic.dart';
+import 'package:silent_moon/presentation/views/normal/intro/set_reminders.dart';
+import 'package:silent_moon/presentation/views/normal/intro/welcome.dart';
+import 'package:silent_moon/presentation/views/normal/main/main_screen.dart';
+import 'package:silent_moon/presentation/views/sleep/sleep_home.dart';
 
 class AppRoutes {
 

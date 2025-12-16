@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:silent_moon/components/bottom_navigation.dart';
-import 'package:silent_moon/controllers/main_screen_handler.dart';
-import 'package:silent_moon/views/normal/main/home.dart';
-import 'package:silent_moon/views/normal/main/meditations.dart';
-import 'package:silent_moon/views/normal/main/music_albums.dart';
-import 'package:silent_moon/views/sleep/sleep_home.dart';
+import 'package:silent_moon/presentation/components/bottom_navigation.dart';
+import 'package:silent_moon/core/controllers/main_screen_handler.dart';
+import 'package:silent_moon/presentation/views/normal/main/home.dart';
+import 'package:silent_moon/presentation/views/normal/main/meditations.dart';
+import 'package:silent_moon/presentation/views/normal/main/music_albums.dart';
+import 'package:silent_moon/presentation/views/sleep/sleep_home.dart';
 
 class MainScreen extends StatelessWidget {
   MainScreen({super.key});

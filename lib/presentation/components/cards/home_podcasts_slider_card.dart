@@ -1,22 +1,28 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:silent_moon/consts/colors.dart';
-import 'package:silent_moon/gen/assets.gen.dart';
-import 'package:silent_moon/models/podcast_model.dart';
+import 'package:silent_moon/core/models/podcasts/podcast_list_models/podcast_result.dart';
 
 class HomePodcastsSliderCard extends StatelessWidget {
-  final PodcastModel item;
+  final PodcastResponseResult item;
   const HomePodcastsSliderCard({super.key, required this.item});
 
   @override
   Widget build(BuildContext context) {
 
     var textTheme = Theme.of(context).textTheme;
+    var size = MediaQuery.of(context).size;
 
     return Container(
       decoration: BoxDecoration(
         borderRadius: .circular(20),
         image: DecorationImage(
-          image: NetworkImage(item.image!),
+          //image: NetworkImage(item.cover),
+          image: CachedNetworkImageProvider(
+            maxHeight: (size.height * .14).toInt(),
+            maxWidth: size.width.toInt(),
+            item.cover,
+          ),
           fit: .cover
         )
       ),
@@ -26,10 +32,6 @@ class HomePodcastsSliderCard extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(24, 12, 24, 12),
         decoration: BoxDecoration(
           borderRadius: .circular(20),
-          image: DecorationImage(
-            image: AssetImage(Assets.images.banners.sliderHomeBg.path),
-            fit: .cover
-          ),
           gradient: LinearGradient(
             colors: [
               Colors.black,
@@ -51,7 +53,7 @@ class HomePodcastsSliderCard extends StatelessWidget {
                 spacing: 10,
                 children: [
                   Text(
-                    item.title!,
+                    item.name,
                     style: textTheme.labelLarge!.copyWith(
                       color: AppSolidColors.lightText,
                     ),
@@ -61,7 +63,7 @@ class HomePodcastsSliderCard extends StatelessWidget {
                       
                   Flexible(
                     child: Text(
-                      '${item.publisher}',
+                      item.ownerName,
                       style: textTheme.labelSmall!.copyWith(
                         color: AppSolidColors.lightText,
                       ),

@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:silent_moon/consts/colors.dart';
-import 'package:silent_moon/controllers/main_screen_handler.dart';
+import 'package:silent_moon/core/controllers/main_screen_handler.dart';
 
 class CustomBottomNavigation extends StatelessWidget {
   CustomBottomNavigation({super.key});
