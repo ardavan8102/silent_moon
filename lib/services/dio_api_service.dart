@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:silent_moon/core/models/podcasts/podcast_list_models/podcast_response.dart';
+import 'package:silent_moon/core/models/podcast_list_models/podcast_response.dart';
 import 'package:silent_moon/core/network/api_endpoints.dart';
 import 'package:silent_moon/core/network/dio_client.dart';
 

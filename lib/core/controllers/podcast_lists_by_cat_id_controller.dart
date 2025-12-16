@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:silent_moon/core/models/podcasts/podcast_list_models/podcast_result.dart';
+import 'package:silent_moon/core/models/podcast_list_models/podcast_result.dart';
 import 'package:silent_moon/services/dio_api_service.dart';
 
 class PodcastListsByCatIdController extends GetxController {

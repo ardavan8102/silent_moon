@@ -1,0 +1,1803 @@
+{
+    "done": true,
+    "result": {
+        "tracks": [
+            {
+                "id": 23119,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/52888\/conversions\/110f293f-0feb-4848-9db6-bb6f1ce959b7-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/52888\/conversions\/110f293f-0feb-4848-9db6-bb6f1ce959b7-thumb-640.jpg",
+                "title": "\u0642\u0635\u0647 (\u0628\u06cc\u06a9\u0644\u0627\u0645)",
+                "download_title": "A Tale Instrumental Daal Band",
+                "download_list_title": "\u0642\u0635\u0647 (\u0628\u06cc\u06a9\u0644\u0627\u0645)  \u062f\u0627\u0644 \u0628\u0646\u062f",
+                "is_demo": false,
+                "duration": 115,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/f84a5d322a56591d2025523e2bd6a5f8\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/f84a5d322a56591d2025523e2bd6a5f8\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/f84a5d322a56591d2025523e2bd6a5f8\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 705,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/566\/conversions\/0eb84468-7f38-4e64-af64-13e0f7127e8b-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/566\/conversions\/0eb84468-7f38-4e64-af64-13e0f7127e8b-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u062f\u0627\u0644 \u0628\u0646\u062f",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#92B7CD",
+                        "followers_count": "1.7K",
+                        "tracks_count": 29,
+                        "play_count": "2.3M"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#E6CF45",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 44502,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74169\/conversions\/184b5685-dbad-4837-8178-44cab07f2077-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74169\/conversions\/184b5685-dbad-4837-8178-44cab07f2077-thumb-640.jpg",
+                "title": "Maximo Diego Pujol",
+                "download_title": "Maximo Diego Pujol Karina Kimiayi",
+                "download_list_title": "Maximo Diego Pujol  \u06a9\u0627\u0631\u06cc\u0646\u0627 \u06a9\u06cc\u0645\u06cc\u0627\u06cc\u06cc",
+                "is_demo": false,
+                "duration": 257,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/c1dc5b459bb86a09184b84c0df234535\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/c1dc5b459bb86a09184b84c0df234535\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/c1dc5b459bb86a09184b84c0df234535\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7087,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/860\/conversions\/db38b2bc-bc30-4ba3-b305-5be91aa5d601-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/860\/conversions\/db38b2bc-bc30-4ba3-b305-5be91aa5d601-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u06a9\u0627\u0631\u06cc\u0646\u0627 \u06a9\u06cc\u0645\u06cc\u0627\u06cc\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A97455",
+                        "followers_count": "71",
+                        "tracks_count": 6,
+                        "play_count": "358.6K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#9C6634",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 48227,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/77290\/conversions\/187be8ba-a9c8-4a40-8d6f-2350abb37b1a-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/77290\/conversions\/187be8ba-a9c8-4a40-8d6f-2350abb37b1a-thumb-640.jpg",
+                "title": "\u067e\u0627\u0686 \u0644\u06cc\u0644\u06cc",
+                "download_title": "Pache Leili Peyman Shirali",
+                "download_list_title": "\u067e\u0627\u0686 \u0644\u06cc\u0644\u06cc  \u067e\u06cc\u0645\u0627\u0646 \u0634\u06cc\u0631\u0627\u0644\u06cc",
+                "is_demo": false,
+                "duration": 149,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7dbb101dab98698ace5b6e8b9f44e12c\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7dbb101dab98698ace5b6e8b9f44e12c\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7dbb101dab98698ace5b6e8b9f44e12c\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 1197,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/30490790\/conversions\/718583e5-7a85-40d0-8735-99e8896c462d-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/30490790\/conversions\/718583e5-7a85-40d0-8735-99e8896c462d-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u067e\u06cc\u0645\u0627\u0646 \u0634\u06cc\u0631\u0627\u0644\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#727272",
+                        "followers_count": "94",
+                        "tracks_count": 25,
+                        "play_count": "809K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#A81F26",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 44219,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/73905\/conversions\/1f897567-a1a9-466b-bc3b-50e576a9183a-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/73905\/conversions\/1f897567-a1a9-466b-bc3b-50e576a9183a-thumb-640.jpg",
+                "title": "\u062a\u0645\u06cc \u0627\u0632 \u06a9\u0646\u0633\u0631\u062a\u0648 \u0622\u0631\u0627\u0646\u062e\u0648\u0626\u0632",
+                "download_title": "Theme From Concierto De Aranjues Mahyar Hemati",
+                "download_list_title": "\u062a\u0645\u06cc \u0627\u0632 \u06a9\u0646\u0633\u0631\u062a\u0648 \u0622\u0631\u0627\u0646\u062e\u0648\u0626\u0632  \u0645\u0647\u06cc\u0627\u0631 \u0647\u0645\u062a\u06cc",
+                "is_demo": false,
+                "duration": 142,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/140a928c7f2213308acb0d338a7194c3\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/140a928c7f2213308acb0d338a7194c3\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/140a928c7f2213308acb0d338a7194c3\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7778,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1409\/conversions\/2255a26a-2430-4caf-9396-e15975d03a65-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1409\/conversions\/2255a26a-2430-4caf-9396-e15975d03a65-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0645\u0647\u06cc\u0627\u0631 \u0647\u0645\u062a\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "63",
+                        "tracks_count": 6,
+                        "play_count": "300.3K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#C89B58",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 265853,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/826301\/conversions\/771f80de-7f67-49e0-bdfc-5a85d028ce5a-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/826301\/conversions\/771f80de-7f67-49e0-bdfc-5a85d028ce5a-thumb-640.jpg",
+                "title": "The Prophet",
+                "download_title": "The Prophet \u064eAzadeh mahdavi azad",
+                "download_list_title": "The Prophet  \u0622\u0632\u0627\u062f\u0647 \u0645\u0647\u062f\u0648\u06cc \u0622\u0632\u0627\u062f",
+                "is_demo": false,
+                "duration": 228,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/337438f084816127459b3b8ec996e8b8\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/337438f084816127459b3b8ec996e8b8\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/337438f084816127459b3b8ec996e8b8\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 57393,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/826277\/conversions\/e80aa78d-8f96-4747-b44e-db21e48d9e9d-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/826277\/conversions\/e80aa78d-8f96-4747-b44e-db21e48d9e9d-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0622\u0632\u0627\u062f\u0647 \u0645\u0647\u062f\u0648\u06cc \u0622\u0632\u0627\u062f",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#303030",
+                        "followers_count": "188",
+                        "tracks_count": 8,
+                        "play_count": "177.3K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#CF331E",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 47408,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/76581\/conversions\/57a93a6d-588f-4beb-b7f0-3ef03ad506cc-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/76581\/conversions\/57a93a6d-588f-4beb-b7f0-3ef03ad506cc-thumb-640.jpg",
+                "title": "No Name",
+                "download_title": "No Name Mahan Farzad",
+                "download_list_title": "No Name  \u0645\u0627\u0647\u0627\u0646 \u0641\u0631\u0632\u0627\u062f",
+                "is_demo": false,
+                "duration": 216,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/488bfbf7c9cbe173850b2ee0c4a8a50c\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/488bfbf7c9cbe173850b2ee0c4a8a50c\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/488bfbf7c9cbe173850b2ee0c4a8a50c\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7091,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/864\/conversions\/19908406-7cd4-4af1-83da-849200ea2e07-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/864\/conversions\/19908406-7cd4-4af1-83da-849200ea2e07-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0645\u0627\u0647\u0627\u0646 \u0641\u0631\u0632\u0627\u062f",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "208",
+                        "tracks_count": 9,
+                        "play_count": "538.4K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#744C4A",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 23124,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/52893\/conversions\/41f9ca7d-4e54-4d98-a60c-7bed4d3d3546-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/52893\/conversions\/41f9ca7d-4e54-4d98-a60c-7bed4d3d3546-thumb-640.jpg",
+                "title": "\u0622\u0646 (\u0628\u06cc\u06a9\u0644\u0627\u0645)",
+                "download_title": "The Moment Instrumental Daal Band",
+                "download_list_title": "\u0622\u0646 (\u0628\u06cc\u06a9\u0644\u0627\u0645)  \u062f\u0627\u0644 \u0628\u0646\u062f",
+                "is_demo": false,
+                "duration": 139,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/32af6bced398a99a26143751b32e6b5b\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/32af6bced398a99a26143751b32e6b5b\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/32af6bced398a99a26143751b32e6b5b\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 705,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/566\/conversions\/0eb84468-7f38-4e64-af64-13e0f7127e8b-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/566\/conversions\/0eb84468-7f38-4e64-af64-13e0f7127e8b-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u062f\u0627\u0644 \u0628\u0646\u062f",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#92B7CD",
+                        "followers_count": "1.7K",
+                        "tracks_count": 29,
+                        "play_count": "2.3M"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#E7CF45",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 45976,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/75493\/conversions\/c6f1ada2-456d-4697-a672-6f83383a1969-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/75493\/conversions\/c6f1ada2-456d-4697-a672-6f83383a1969-thumb-640.jpg",
+                "title": "Still",
+                "download_title": "Still Mahan Farzad",
+                "download_list_title": "Still  \u0645\u0627\u0647\u0627\u0646 \u0641\u0631\u0632\u0627\u062f",
+                "is_demo": false,
+                "duration": 368,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/b1f4a76c40da80c57d65f0d003ceb535\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/b1f4a76c40da80c57d65f0d003ceb535\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/b1f4a76c40da80c57d65f0d003ceb535\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7091,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/864\/conversions\/19908406-7cd4-4af1-83da-849200ea2e07-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/864\/conversions\/19908406-7cd4-4af1-83da-849200ea2e07-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0645\u0627\u0647\u0627\u0646 \u0641\u0631\u0632\u0627\u062f",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "208",
+                        "tracks_count": 9,
+                        "play_count": "538.4K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#797E58",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 44348,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74031\/conversions\/c62f59b2-a017-4bd4-a8da-93f49a3c9984-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74031\/conversions\/c62f59b2-a017-4bd4-a8da-93f49a3c9984-thumb-640.jpg",
+                "title": "Piano Day",
+                "download_title": "Piano Day Mahan Farzad",
+                "download_list_title": "Piano Day  \u0645\u0627\u0647\u0627\u0646 \u0641\u0631\u0632\u0627\u062f",
+                "is_demo": false,
+                "duration": 297,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/fb6d7065fab6060da83a44808f33081f\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/fb6d7065fab6060da83a44808f33081f\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/fb6d7065fab6060da83a44808f33081f\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7091,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/864\/conversions\/19908406-7cd4-4af1-83da-849200ea2e07-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/864\/conversions\/19908406-7cd4-4af1-83da-849200ea2e07-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0645\u0627\u0647\u0627\u0646 \u0641\u0631\u0632\u0627\u062f",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "208",
+                        "tracks_count": 9,
+                        "play_count": "538.4K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#6E4847",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 46782,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/76116\/conversions\/307f2725-d905-4db4-944b-11b1af95b5db-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/76116\/conversions\/307f2725-d905-4db4-944b-11b1af95b5db-thumb-640.jpg",
+                "title": "The Weeping Meadow",
+                "download_title": "The Weeping Meadow Hamed Porsaei",
+                "download_list_title": "The Weeping Meadow  \u062d\u0627\u0645\u062f \u067e\u0648\u0631\u0633\u0627\u0639\u06cc",
+                "is_demo": false,
+                "duration": 228,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/9d87245852e16ed7663498a0077350a1\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/9d87245852e16ed7663498a0077350a1\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/9d87245852e16ed7663498a0077350a1\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7395,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1140\/conversions\/1e38bcf8-8789-4ef8-a4a0-685fb000dabb-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1140\/conversions\/1e38bcf8-8789-4ef8-a4a0-685fb000dabb-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u062d\u0627\u0645\u062f \u067e\u0648\u0631\u0633\u0627\u0639\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "40",
+                        "tracks_count": 14,
+                        "play_count": "588.5K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#A0A0A0",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 47585,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/76758\/conversions\/41907fb5-9634-46ba-99dc-4498f8df7b0b-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/76758\/conversions\/41907fb5-9634-46ba-99dc-4498f8df7b0b-thumb-640.jpg",
+                "title": "\u0634\u06cc\u0641\u062a \u0634\u0628",
+                "download_title": "Shifte Shab Karen Homayounfar",
+                "download_list_title": "\u0634\u06cc\u0641\u062a \u0634\u0628  \u06a9\u0627\u0631\u0646 \u0647\u0645\u0627\u06cc\u0648\u0646\u0641\u0631",
+                "is_demo": false,
+                "duration": 82,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/12d4947f6b6dd0b02540ddafa7c170d5\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/12d4947f6b6dd0b02540ddafa7c170d5\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/12d4947f6b6dd0b02540ddafa7c170d5\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 554,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/545\/conversions\/85fa75da-1d73-48f5-96da-50c8b9eddf14-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/545\/conversions\/85fa75da-1d73-48f5-96da-50c8b9eddf14-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u06a9\u0627\u0631\u0646 \u0647\u0645\u0627\u06cc\u0648\u0646\u0641\u0631",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "1.1K",
+                        "tracks_count": 39,
+                        "play_count": "477.3K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#A0A0A0",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 47831,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/76944\/conversions\/ae62f7e9-9ff6-4652-b993-3d1f0d0e5bdc-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/76944\/conversions\/ae62f7e9-9ff6-4652-b993-3d1f0d0e5bdc-thumb-640.jpg",
+                "title": "\u0631\u0648\u06cc\u0627\u06cc \u0646\u06cc\u0645\u0647 \u0634\u0628",
+                "download_title": "Rouaye Nimeh Shab Behzad Mirkhani",
+                "download_list_title": "\u0631\u0648\u06cc\u0627\u06cc \u0646\u06cc\u0645\u0647 \u0634\u0628  \u0628\u0647\u0632\u0627\u062f \u0645\u06cc\u0631\u062e\u0627\u0646\u06cc",
+                "is_demo": false,
+                "duration": 232,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/0837905bf5bd25f97c690402d9308b38\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/0837905bf5bd25f97c690402d9308b38\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/0837905bf5bd25f97c690402d9308b38\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7937,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/29860265\/conversions\/9b6becea-233d-45cf-b52d-b2c107083049-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/29860265\/conversions\/9b6becea-233d-45cf-b52d-b2c107083049-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0628\u0647\u0632\u0627\u062f \u0645\u06cc\u0631\u062e\u0627\u0646\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#CA7511",
+                        "followers_count": "44",
+                        "tracks_count": 3,
+                        "play_count": "371.1K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#B9822B",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 167614,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/421409\/conversions\/056b2e66-13bc-49d3-a7d4-54c866d59be6-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/421409\/conversions\/056b2e66-13bc-49d3-a7d4-54c866d59be6-thumb-640.jpg",
+                "title": "dreams",
+                "download_title": "dreams Arman Manshaee",
+                "download_list_title": "dreams  \u0622\u0631\u0645\u0627\u0646 \u0645\u0646\u0634\u0627\u06cc\u06cc",
+                "is_demo": false,
+                "duration": 254,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7af64864a734af48531f8eeb82783bf7\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7af64864a734af48531f8eeb82783bf7\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7af64864a734af48531f8eeb82783bf7\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 31310,
+                        "image": null,
+                        "image_large": null,
+                        "background_image": null,
+                        "name": "\u0622\u0631\u0645\u0627\u0646 \u0645\u0646\u0634\u0627\u06cc\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#303030",
+                        "followers_count": "15",
+                        "tracks_count": 2,
+                        "play_count": "183.6K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#A0A0A0",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 162043,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/415148\/conversions\/a2829f5f-41bf-49c0-b02e-dd2dd0de67be-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/415148\/conversions\/a2829f5f-41bf-49c0-b02e-dd2dd0de67be-thumb-640.jpg",
+                "title": "\u0639\u0627\u062f\u062a",
+                "download_title": "Adat Fariborz Lachini",
+                "download_list_title": "\u0639\u0627\u062f\u062a  \u0641\u0631\u06cc\u0628\u0631\u0632 \u0644\u0627\u0686\u06cc\u0646\u06cc",
+                "is_demo": false,
+                "duration": 258,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/76b032fe4e90338079d620b394bc4950\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/76b032fe4e90338079d620b394bc4950\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/76b032fe4e90338079d620b394bc4950\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 195,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/364\/conversions\/3d5f7f8a-9044-488c-b531-06ea99bfdc31-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/364\/conversions\/3d5f7f8a-9044-488c-b531-06ea99bfdc31-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0641\u0631\u06cc\u0628\u0631\u0632 \u0644\u0627\u0686\u06cc\u0646\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#D6A88F",
+                        "followers_count": "1.2K",
+                        "tracks_count": 77,
+                        "play_count": "1.7M"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#CA9477",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 23122,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/52891\/conversions\/ab104958-b4bb-43c1-9ac9-d5b5640b4799-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/52891\/conversions\/ab104958-b4bb-43c1-9ac9-d5b5640b4799-thumb-640.jpg",
+                "title": "\u0634\u06a9\u0648\u0641\u0647 \u0647\u0627\u06cc \u0632\u06cc\u062a\u0648\u0646 (\u0628\u06cc\u06a9\u0644\u0627\u0645)",
+                "download_title": "The Olive Blossoms Instrumental Daal Band",
+                "download_list_title": "\u0634\u06a9\u0648\u0641\u0647 \u0647\u0627\u06cc \u0632\u06cc\u062a\u0648\u0646 (\u0628\u06cc\u06a9\u0644\u0627\u0645)  \u062f\u0627\u0644 \u0628\u0646\u062f",
+                "is_demo": false,
+                "duration": 241,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7af5b163e7ef52014b5dfc2f4659ef37\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7af5b163e7ef52014b5dfc2f4659ef37\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7af5b163e7ef52014b5dfc2f4659ef37\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 705,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/566\/conversions\/0eb84468-7f38-4e64-af64-13e0f7127e8b-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/566\/conversions\/0eb84468-7f38-4e64-af64-13e0f7127e8b-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u062f\u0627\u0644 \u0628\u0646\u062f",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#92B7CD",
+                        "followers_count": "1.7K",
+                        "tracks_count": 29,
+                        "play_count": "2.3M"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#E6CF45",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 11598,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/41370\/conversions\/7e3489d8-ce81-495d-a854-be2d6c8fce04-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/41370\/conversions\/7e3489d8-ce81-495d-a854-be2d6c8fce04-thumb-640.jpg",
+                "title": "\u0632\u0645\u0633\u062a\u0627\u0646 \u0646\u0642\u0631\u0647 \u0627\u06cc",
+                "download_title": "Zemestane Noghrei Fariborz Lachini",
+                "download_list_title": "\u0632\u0645\u0633\u062a\u0627\u0646 \u0646\u0642\u0631\u0647 \u0627\u06cc  \u0641\u0631\u06cc\u0628\u0631\u0632 \u0644\u0627\u0686\u06cc\u0646\u06cc",
+                "is_demo": false,
+                "duration": 195,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/94e21f04126e79312aa6154c22f5f1be\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/94e21f04126e79312aa6154c22f5f1be\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/94e21f04126e79312aa6154c22f5f1be\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 195,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/364\/conversions\/3d5f7f8a-9044-488c-b531-06ea99bfdc31-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/364\/conversions\/3d5f7f8a-9044-488c-b531-06ea99bfdc31-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0641\u0631\u06cc\u0628\u0631\u0632 \u0644\u0627\u0686\u06cc\u0646\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#D6A88F",
+                        "followers_count": "1.2K",
+                        "tracks_count": 77,
+                        "play_count": "1.7M"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#F5D314",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 48103,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/77166\/conversions\/44677249-fe95-43e3-a468-6dde7dc3421a-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/77166\/conversions\/44677249-fe95-43e3-a468-6dde7dc3421a-thumb-640.jpg",
+                "title": "TwoMinutesInDream",
+                "download_title": "TwoMinutesInDream Peyman Fakharian",
+                "download_list_title": "TwoMinutesInDream  \u067e\u06cc\u0645\u0627\u0646 \u0641\u062e\u0627\u0631\u06cc\u0627\u0646",
+                "is_demo": false,
+                "duration": 115,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/139cc2c7447c799328e0b08146e7b057\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/139cc2c7447c799328e0b08146e7b057\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/139cc2c7447c799328e0b08146e7b057\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7217,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/29626360\/conversions\/498d56af-9579-4fa8-836b-3285a4b1a394-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/29626360\/conversions\/498d56af-9579-4fa8-836b-3285a4b1a394-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u067e\u06cc\u0645\u0627\u0646 \u0641\u062e\u0627\u0631\u06cc\u0627\u0646",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A8857B",
+                        "followers_count": "125",
+                        "tracks_count": 19,
+                        "play_count": "971.9K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#88893E",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 48207,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/77270\/conversions\/630692e1-d5d3-478c-ad47-99698a1c2b8f-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/77270\/conversions\/630692e1-d5d3-478c-ad47-99698a1c2b8f-thumb-640.jpg",
+                "title": "Abadiyat Va Yek Roz",
+                "download_title": "Abadiyat Va Yek Roz Hamed Porsaei, karim ghorbani",
+                "download_list_title": "Abadiyat Va Yek Roz  \u062d\u0627\u0645\u062f \u067e\u0648\u0631\u0633\u0627\u0639\u06cc\u060c \u06a9\u0631\u06cc\u0645 \u0642\u0631\u0628\u0627\u0646\u06cc",
+                "is_demo": false,
+                "duration": 207,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/935d94cae4195c5165e14fc508e0a2e0\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/935d94cae4195c5165e14fc508e0a2e0\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/935d94cae4195c5165e14fc508e0a2e0\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7395,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1140\/conversions\/1e38bcf8-8789-4ef8-a4a0-685fb000dabb-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1140\/conversions\/1e38bcf8-8789-4ef8-a4a0-685fb000dabb-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u062d\u0627\u0645\u062f \u067e\u0648\u0631\u0633\u0627\u0639\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "40",
+                        "tracks_count": 14,
+                        "play_count": "588.5K"
+                    },
+                    {
+                        "id": 7485,
+                        "image": null,
+                        "image_large": null,
+                        "background_image": null,
+                        "name": "\u06a9\u0631\u06cc\u0645 \u0642\u0631\u0628\u0627\u0646\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#303030",
+                        "followers_count": "50",
+                        "tracks_count": 11,
+                        "play_count": "342.1K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#D38C2C",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 31194,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/60907\/conversions\/fe1a8aeb-b848-420d-8c53-aebe87945221-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/60907\/conversions\/fe1a8aeb-b848-420d-8c53-aebe87945221-thumb-640.jpg",
+                "title": "\u06cc\u06a9 \u0622\u0647\u0646\u06af \u0627\u0632 \u0633\u06a9\u0631\u062a \u06af\u0627\u0631\u062f\u0646",
+                "download_title": "Song From A Secret Garden Secret Garden",
+                "download_list_title": "\u06cc\u06a9 \u0622\u0647\u0646\u06af \u0627\u0632 \u0633\u06a9\u0631\u062a \u06af\u0627\u0631\u062f\u0646  \u0633\u06a9\u0631\u062a \u06af\u0627\u0631\u062f\u0646",
+                "is_demo": false,
+                "duration": 209,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/6b706dd01d075c0a6490d42f348cc915\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/6b706dd01d075c0a6490d42f348cc915\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/6b706dd01d075c0a6490d42f348cc915\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 2020,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/30414425\/conversions\/e7c7c006-067a-4977-a389-d02d353ce6d3-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/30414425\/conversions\/e7c7c006-067a-4977-a389-d02d353ce6d3-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0633\u06a9\u0631\u062a \u06af\u0627\u0631\u062f\u0646",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#727578",
+                        "followers_count": "264",
+                        "tracks_count": 4,
+                        "play_count": "891.9K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#A0A0A0",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 44143,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/73829\/conversions\/f40521ce-959b-4852-a768-6ce5643d615f-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/73829\/conversions\/f40521ce-959b-4852-a768-6ce5643d615f-thumb-640.jpg",
+                "title": "\u0645\u0642\u062f\u0645\u0647 \"\u0641\u0627\u0646\u062a\u0632\u06cc \u0627\u067e\u0648\u0633 63\"",
+                "download_title": "Akhoundi Reza Moghadameh Mostafa Akhundi, Alireza Reza",
+                "download_list_title": "\u0645\u0642\u062f\u0645\u0647 \"\u0641\u0627\u0646\u062a\u0632\u06cc \u0627\u067e\u0648\u0633 63\"  \u0645\u0635\u0637\u0641\u06cc \u0622\u062e\u0648\u0646\u062f\u06cc\u060c \u0639\u0644\u06cc\u0631\u0636\u0627 \u0631\u0636\u0627",
+                "is_demo": false,
+                "duration": 115,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/33100df7809e621565b39656b67c6652\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/33100df7809e621565b39656b67c6652\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/33100df7809e621565b39656b67c6652\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7775,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1406\/conversions\/de424bba-55b2-4b63-8922-5d0360cd3444-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1406\/conversions\/de424bba-55b2-4b63-8922-5d0360cd3444-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0645\u0635\u0637\u0641\u06cc \u0622\u062e\u0648\u0646\u062f\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "22",
+                        "tracks_count": 1,
+                        "play_count": "71K"
+                    },
+                    {
+                        "id": 7539,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1233\/conversions\/2820b17e-3505-4721-a3d9-b0392dc79b2b-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1233\/conversions\/2820b17e-3505-4721-a3d9-b0392dc79b2b-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0639\u0644\u06cc\u0631\u0636\u0627 \u0631\u0636\u0627",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "16",
+                        "tracks_count": 1,
+                        "play_count": "71K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#BE4629",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 11597,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/41369\/conversions\/5405c559-48af-4045-af83-8e37e0240e66-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/41369\/conversions\/5405c559-48af-4045-af83-8e37e0240e66-thumb-640.jpg",
+                "title": "\u062a\u06a9\u0647 \u0647\u0627\u06cc \u067e\u0627\u0626\u06cc\u0632",
+                "download_title": "Tekkehaye Paeiz Fariborz Lachini",
+                "download_list_title": "\u062a\u06a9\u0647 \u0647\u0627\u06cc \u067e\u0627\u0626\u06cc\u0632  \u0641\u0631\u06cc\u0628\u0631\u0632 \u0644\u0627\u0686\u06cc\u0646\u06cc",
+                "is_demo": false,
+                "duration": 165,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/84cbdf58156711f0c4e8bbe172a9ff14\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/84cbdf58156711f0c4e8bbe172a9ff14\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/84cbdf58156711f0c4e8bbe172a9ff14\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 195,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/364\/conversions\/3d5f7f8a-9044-488c-b531-06ea99bfdc31-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/364\/conversions\/3d5f7f8a-9044-488c-b531-06ea99bfdc31-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0641\u0631\u06cc\u0628\u0631\u0632 \u0644\u0627\u0686\u06cc\u0646\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#D6A88F",
+                        "followers_count": "1.2K",
+                        "tracks_count": 77,
+                        "play_count": "1.7M"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#F5D314",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 48113,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/77176\/conversions\/1816b912-45d2-4af5-9f17-c54798be15a3-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/77176\/conversions\/1816b912-45d2-4af5-9f17-c54798be15a3-thumb-640.jpg",
+                "title": "\u0634\u06a9\u0648\u0641\u0647 \u0647\u0627\u06cc \u0632\u06cc\u062a\u0648\u0646",
+                "download_title": "Shokofeh Haye Zeytoon Daal Band",
+                "download_list_title": "\u0634\u06a9\u0648\u0641\u0647 \u0647\u0627\u06cc \u0632\u06cc\u062a\u0648\u0646  \u062f\u0627\u0644 \u0628\u0646\u062f",
+                "is_demo": false,
+                "duration": 241,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/ee9c16b55145794d9c9f0f2f2a527007\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/ee9c16b55145794d9c9f0f2f2a527007\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/ee9c16b55145794d9c9f0f2f2a527007\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 705,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/566\/conversions\/0eb84468-7f38-4e64-af64-13e0f7127e8b-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/566\/conversions\/0eb84468-7f38-4e64-af64-13e0f7127e8b-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u062f\u0627\u0644 \u0628\u0646\u062f",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#92B7CD",
+                        "followers_count": "1.7K",
+                        "tracks_count": 29,
+                        "play_count": "2.3M"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#E7D03C",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 265837,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/826252\/conversions\/1d5fbccc-d883-4ca5-a81b-31dd16bb4cf4-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/826252\/conversions\/1d5fbccc-d883-4ca5-a81b-31dd16bb4cf4-thumb-640.jpg",
+                "title": "Do Not Leave Me (Ne Me Quittie Pas)",
+                "download_title": "Do Not Leave Me Ne Me Quittie Pas babak safar nezhad",
+                "download_list_title": "Do Not Leave Me (Ne Me Quittie Pas)  \u0628\u0627\u0628\u06a9 \u0635\u0641\u0631\u0646\u0698\u0627\u062f",
+                "is_demo": false,
+                "duration": 202,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/6ab445d95a7796194c1d44dd159a8e27\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/6ab445d95a7796194c1d44dd159a8e27\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/6ab445d95a7796194c1d44dd159a8e27\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 57386,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/826245\/conversions\/29e3b865-204e-40ec-b739-3afc67d9a340-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/826245\/conversions\/29e3b865-204e-40ec-b739-3afc67d9a340-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0628\u0627\u0628\u06a9 \u0635\u0641\u0631\u0646\u0698\u0627\u062f",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#BD9C5F",
+                        "followers_count": "55",
+                        "tracks_count": 14,
+                        "play_count": "312.6K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#E6D322",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 167622,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/421418\/conversions\/2069e6a8-ba8a-4661-b66e-79f571573b2f-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/421418\/conversions\/2069e6a8-ba8a-4661-b66e-79f571573b2f-thumb-640.jpg",
+                "title": "moonlight",
+                "download_title": "moonlight fariboorz haji nabi",
+                "download_list_title": "moonlight  \u0641\u0631\u06cc\u0628\u0631\u0632 \u062d\u0627\u062c\u06cc \u0646\u0628\u06cc",
+                "is_demo": false,
+                "duration": 260,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/17f25e1b9772bf9979225f13ab970612\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/17f25e1b9772bf9979225f13ab970612\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/17f25e1b9772bf9979225f13ab970612\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 37653,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/421413\/conversions\/31576842-273d-4a09-a809-16cbee8f208e-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/421413\/conversions\/31576842-273d-4a09-a809-16cbee8f208e-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0641\u0631\u06cc\u0628\u0631\u0632 \u062d\u0627\u062c\u06cc \u0646\u0628\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#6A8BA9",
+                        "followers_count": "39",
+                        "tracks_count": 5,
+                        "play_count": "91.2K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#6B8CAA",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 163278,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/416828\/conversions\/4fcf208a-c504-4f08-bbb6-4886d83a0cff-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/416828\/conversions\/4fcf208a-c504-4f08-bbb6-4886d83a0cff-thumb-640.jpg",
+                "title": "soghati",
+                "download_title": "soghati mohsen karbasi",
+                "download_list_title": "soghati  \u0645\u062d\u0633\u0646 \u06a9\u0631\u0628\u0627\u0633\u06cc",
+                "is_demo": false,
+                "duration": 370,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/9468baad6839e9fdb3c9cda9395e71c6\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/9468baad6839e9fdb3c9cda9395e71c6\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/9468baad6839e9fdb3c9cda9395e71c6\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 36308,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/30490490\/conversions\/48948ad3-ce7b-436b-a3bc-8e1b9de28087-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/30490490\/conversions\/48948ad3-ce7b-436b-a3bc-8e1b9de28087-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0645\u062d\u0633\u0646 \u06a9\u0631\u0628\u0627\u0633\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#6E7273",
+                        "followers_count": "133",
+                        "tracks_count": 9,
+                        "play_count": "432.8K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#954D29",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 44154,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/73840\/conversions\/1622895c-27db-41a1-9aa3-42377e610fea-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/73840\/conversions\/1622895c-27db-41a1-9aa3-42377e610fea-thumb-640.jpg",
+                "title": "\u0648 \u0632\u0646\u062f\u06af\u064a \u0627\u062f\u0627\u0645\u0647 \u062f\u0627\u0631\u062f",
+                "download_title": "Life Goes On Ahmad Pejman",
+                "download_list_title": "\u0648 \u0632\u0646\u062f\u06af\u064a \u0627\u062f\u0627\u0645\u0647 \u062f\u0627\u0631\u062f  \u0627\u062d\u0645\u062f \u067e\u0698\u0645\u0627\u0646",
+                "is_demo": false,
+                "duration": 178,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/500fba766289e40c49178fa2537dbc17\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/500fba766289e40c49178fa2537dbc17\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/500fba766289e40c49178fa2537dbc17\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7023,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/802\/conversions\/576e9fc4-c3ee-4532-b739-c1db5b416a2f-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/802\/conversions\/576e9fc4-c3ee-4532-b739-c1db5b416a2f-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0627\u062d\u0645\u062f \u067e\u0698\u0645\u0627\u0646",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "70",
+                        "tracks_count": 8,
+                        "play_count": "358.3K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#C0A777",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 44727,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74376\/conversions\/f1b953e2-f617-4242-a9ac-b565a84e5b88-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74376\/conversions\/f1b953e2-f617-4242-a9ac-b565a84e5b88-thumb-640.jpg",
+                "title": "\u0622\u062f\u0627\u062c\u06cc\u0648",
+                "download_title": "Adagio Mahyar Hemati",
+                "download_list_title": "\u0622\u062f\u0627\u062c\u06cc\u0648  \u0645\u0647\u06cc\u0627\u0631 \u0647\u0645\u062a\u06cc",
+                "is_demo": false,
+                "duration": 378,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/ba6814d96c2f76e45e0b748aa6e3bc75\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/ba6814d96c2f76e45e0b748aa6e3bc75\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/ba6814d96c2f76e45e0b748aa6e3bc75\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7778,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1409\/conversions\/2255a26a-2430-4caf-9396-e15975d03a65-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1409\/conversions\/2255a26a-2430-4caf-9396-e15975d03a65-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0645\u0647\u06cc\u0627\u0631 \u0647\u0645\u062a\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "63",
+                        "tracks_count": 6,
+                        "play_count": "300.3K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#CA9D59",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 265842,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/826262\/conversions\/e4941fb1-e197-489e-9134-adcd7bdb1d5a-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/826262\/conversions\/e4941fb1-e197-489e-9134-adcd7bdb1d5a-thumb-640.jpg",
+                "title": "North Land",
+                "download_title": "North Land babak safar nezhad",
+                "download_list_title": "North Land  \u0628\u0627\u0628\u06a9 \u0635\u0641\u0631\u0646\u0698\u0627\u062f",
+                "is_demo": false,
+                "duration": 189,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/42f43f8a5caae17e455ea7a36991eb7d\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/42f43f8a5caae17e455ea7a36991eb7d\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/42f43f8a5caae17e455ea7a36991eb7d\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 57386,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/826245\/conversions\/29e3b865-204e-40ec-b739-3afc67d9a340-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/826245\/conversions\/29e3b865-204e-40ec-b739-3afc67d9a340-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0628\u0627\u0628\u06a9 \u0635\u0641\u0631\u0646\u0698\u0627\u062f",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#BD9C5F",
+                        "followers_count": "55",
+                        "tracks_count": 14,
+                        "play_count": "312.6K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#E6D322",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 163251,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/416794\/conversions\/7f8c3609-5533-4a34-9ef1-82f567bb59b5-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/416794\/conversions\/7f8c3609-5533-4a34-9ef1-82f567bb59b5-thumb-640.jpg",
+                "title": "\u0634\u0647\u0631\u06cc\u0648\u0631",
+                "download_title": "shahrivar alireza abbasi",
+                "download_list_title": "\u0634\u0647\u0631\u06cc\u0648\u0631  \u0639\u0644\u06cc\u0631\u0636\u0627 \u0639\u0628\u0627\u0633\u06cc",
+                "is_demo": false,
+                "duration": 199,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7638163de096b36ce1ffaa8cefcdb131\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7638163de096b36ce1ffaa8cefcdb131\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/7638163de096b36ce1ffaa8cefcdb131\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 36299,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/416793\/conversions\/5f201f56-b674-4bb0-96e2-2c81bd6f3628-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/416793\/conversions\/5f201f56-b674-4bb0-96e2-2c81bd6f3628-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0639\u0644\u06cc\u0631\u0636\u0627 \u0639\u0628\u0627\u0633\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#CF6723",
+                        "followers_count": "34",
+                        "tracks_count": 1,
+                        "play_count": "92.8K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#C96627",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 167601,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/421387\/conversions\/6dd15655-951b-446e-a6b4-102172adfe2a-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/421387\/conversions\/6dd15655-951b-446e-a6b4-102172adfe2a-thumb-640.jpg",
+                "title": "\u0645\u0631\u0627 \u0628\u0628\u0648\u0633",
+                "download_title": "mara beboos Farid Farjad",
+                "download_list_title": "\u0645\u0631\u0627 \u0628\u0628\u0648\u0633  \u0641\u0631\u06cc\u062f \u0641\u0631\u062c\u0627\u062f",
+                "is_demo": false,
+                "duration": 302,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/2966b32912c3d144ff161373aea071e3\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/2966b32912c3d144ff161373aea071e3\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/2966b32912c3d144ff161373aea071e3\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 3549,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/30436480\/conversions\/34f72238-1e77-4a97-9321-21a4ca893e33-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/30436480\/conversions\/34f72238-1e77-4a97-9321-21a4ca893e33-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0641\u0631\u06cc\u062f \u0641\u0631\u062c\u0627\u062f",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#6E6E6E",
+                        "followers_count": "526",
+                        "tracks_count": 15,
+                        "play_count": "735.1K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#BF7F6A",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 45259,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74813\/conversions\/6b8b577c-33fe-4288-98cd-2f360df665dc-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74813\/conversions\/6b8b577c-33fe-4288-98cd-2f360df665dc-thumb-640.jpg",
+                "title": "\u0641\u0631\u062f\u0627",
+                "download_title": "Tomorrow Ahmad Pejman",
+                "download_list_title": "\u0641\u0631\u062f\u0627  \u0627\u062d\u0645\u062f \u067e\u0698\u0645\u0627\u0646",
+                "is_demo": false,
+                "duration": 304,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/8fee5450d807855bcded1d334c5b868e\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/8fee5450d807855bcded1d334c5b868e\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/8fee5450d807855bcded1d334c5b868e\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7023,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/802\/conversions\/576e9fc4-c3ee-4532-b739-c1db5b416a2f-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/802\/conversions\/576e9fc4-c3ee-4532-b739-c1db5b416a2f-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0627\u062d\u0645\u062f \u067e\u0698\u0645\u0627\u0646",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A0A0A0",
+                        "followers_count": "70",
+                        "tracks_count": 8,
+                        "play_count": "358.3K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#C0A776",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 44729,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74378\/conversions\/5d1111f0-7782-4fa7-b7a6-681f7d9326a8-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74378\/conversions\/5d1111f0-7782-4fa7-b7a6-681f7d9326a8-thumb-640.jpg",
+                "title": "\u062e\u0627\u0637\u0631\u0627\u062a",
+                "download_title": "Khateraat Peyman Fakharian",
+                "download_list_title": "\u062e\u0627\u0637\u0631\u0627\u062a  \u067e\u06cc\u0645\u0627\u0646 \u0641\u062e\u0627\u0631\u06cc\u0627\u0646",
+                "is_demo": false,
+                "duration": 77,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/a1e7b5bdc6f843f0623e9b276afbe919\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/a1e7b5bdc6f843f0623e9b276afbe919\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/a1e7b5bdc6f843f0623e9b276afbe919\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7217,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/29626360\/conversions\/498d56af-9579-4fa8-836b-3285a4b1a394-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/29626360\/conversions\/498d56af-9579-4fa8-836b-3285a4b1a394-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u067e\u06cc\u0645\u0627\u0646 \u0641\u062e\u0627\u0631\u06cc\u0627\u0646",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#A8857B",
+                        "followers_count": "125",
+                        "tracks_count": 19,
+                        "play_count": "971.9K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#DF3B23",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 44601,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74265\/conversions\/388539bd-e899-44d2-81a3-8a6ac65f9853-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/74265\/conversions\/388539bd-e899-44d2-81a3-8a6ac65f9853-thumb-640.jpg",
+                "title": "\u0633\u067e\u0646\u062a\u0627",
+                "download_title": "Sepanta Ep sepanta",
+                "download_list_title": "\u0633\u067e\u0646\u062a\u0627  \u0633\u067e\u0646\u062a\u0627",
+                "is_demo": false,
+                "duration": 300,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/040064725a333124bfaebfc18bc49a06\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/040064725a333124bfaebfc18bc49a06\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/040064725a333124bfaebfc18bc49a06\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 131721,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/30412440\/conversions\/4b9a93c0-5839-484d-9577-f93159f1f2a1-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/30412440\/conversions\/4b9a93c0-5839-484d-9577-f93159f1f2a1-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u0633\u067e\u0646\u062a\u0627",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#8A8A86",
+                        "followers_count": "314",
+                        "tracks_count": 4,
+                        "play_count": "2.3M"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#756C4B",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            },
+            {
+                "id": 3016824,
+                "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/25952240\/conversions\/ca94e352-8f85-4f7f-b675-000960df7a72-thumb-200.jpg",
+                "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/track-covers\/25952240\/conversions\/ca94e352-8f85-4f7f-b675-000960df7a72-thumb-640.jpg",
+                "title": "\u0646\u06af\u0641\u062a\u0647",
+                "download_title": "Naagofte Christopher Rezaei",
+                "download_list_title": "\u0646\u06af\u0641\u062a\u0647  \u06a9\u0631\u06cc\u0633\u062a\u0641 \u0631\u0636\u0627\u0639\u06cc",
+                "is_demo": false,
+                "duration": 80,
+                "mp3s": [
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/93f0ec2deee5335d92e4805986e7e702\/320\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "320",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/93f0ec2deee5335d92e4805986e7e702\/160\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "160",
+                        "demo": 0
+                    },
+                    {
+                        "name": "https:\/\/m-cdn.melodify.pw\/handle\/v2\/tracks\/93f0ec2deee5335d92e4805986e7e702\/96\/b62a337a-f327-44a3-b888-8b87bc479c35",
+                        "quality": "96",
+                        "demo": 0
+                    }
+                ],
+                "artists": [
+                    {
+                        "id": 7830,
+                        "image": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1459\/conversions\/121dbb83-8d13-41b9-94a7-dcb7b20bb7a3-thumb-300.jpg",
+                        "image_large": "https:\/\/m-img.melodify.pw\/new_data\/images\/artist-images\/1459\/conversions\/121dbb83-8d13-41b9-94a7-dcb7b20bb7a3-thumb-500.jpg",
+                        "background_image": null,
+                        "name": "\u06a9\u0631\u06cc\u0633\u062a\u0641 \u0631\u0636\u0627\u0639\u06cc",
+                        "has_related_collection": false,
+                        "instagram_page": null,
+                        "background_color": "#D6ACA2",
+                        "followers_count": "73",
+                        "tracks_count": 24,
+                        "play_count": "72.4K"
+                    }
+                ],
+                "track_limit": null,
+                "add_on": null,
+                "background_color": "#C8B58C",
+                "lyric": {
+                    "type_title": null,
+                    "show_limitation_box": false,
+                    "has_lyric": false
+                },
+                "downloadable": true,
+                "has_ad_break": false
+            }
+        ],
+        "remaining": 0,
+        "end": true
+    }
+}

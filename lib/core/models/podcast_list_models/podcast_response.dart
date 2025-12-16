@@ -1,4 +1,4 @@
-import 'package:silent_moon/core/models/podcasts/podcast_list_models/podcast_data.dart';
+import 'package:silent_moon/core/models/podcast_list_models/podcast_data.dart';
 
 class PodcastResponse {
   final PodcastData data;

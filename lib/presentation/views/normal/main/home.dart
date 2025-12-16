@@ -2,7 +2,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:silent_moon/core/controllers/podcast_lists_by_cat_id_controller.dart';
-import 'package:silent_moon/core/models/podcasts/podcast_list_models/podcast_result.dart';
+import 'package:silent_moon/core/models/podcast_list_models/podcast_result.dart';
 import 'package:silent_moon/presentation/components/cards/home_podcasts_slider_card.dart';
 import 'package:silent_moon/presentation/components/texts/listview_section_title.dart';
 import 'package:silent_moon/presentation/components/texts/page_title.dart';
@@ -81,6 +81,30 @@ class HomePage extends StatelessWidget {
           const SizedBox(height: 20),
       
           podcastListViewBuilderWithCatId(size, 643),
+
+
+          // 635
+          ListviewSectionTitle(label: 'طنــز و اجتمــاع'),
+      
+          const SizedBox(height: 20),
+      
+          podcastListViewBuilderWithCatId(size, 635),
+
+
+          // 630
+          ListviewSectionTitle(label: 'تنـــاســب انــدامــ'),
+      
+          const SizedBox(height: 20),
+      
+          podcastListViewBuilderWithCatId(size, 630),
+
+
+          // 641
+          ListviewSectionTitle(label: 'سمتـــ خــدا و باورهــها'),
+      
+          const SizedBox(height: 20),
+      
+          podcastListViewBuilderWithCatId(size, 641),
 
         ],
       ),

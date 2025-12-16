@@ -2,7 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:silent_moon/consts/colors.dart';
-import 'package:silent_moon/core/models/podcasts/podcast_list_models/podcast_result.dart';
+import 'package:silent_moon/core/models/podcast_list_models/podcast_result.dart';
 import 'package:silent_moon/presentation/components/containers/empty_image_state.dart';
 
 class PodcastListViewCard extends StatelessWidget {
