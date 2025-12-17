@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:silent_moon/presentation/components/button_full_width.dart';
+import 'package:silent_moon/presentation/components/button/button_full_width.dart';
 import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/data/topic_categories.dart';
 import 'package:silent_moon/gen/assets.gen.dart';

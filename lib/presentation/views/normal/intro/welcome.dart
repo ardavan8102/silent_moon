@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:silent_moon/presentation/components/button_full_width.dart';
+import 'package:silent_moon/presentation/components/button/button_full_width.dart';
 import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/consts/strings.dart';
 import 'package:silent_moon/gen/assets.gen.dart';

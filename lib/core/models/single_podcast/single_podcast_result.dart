@@ -47,7 +47,7 @@ class SinglePodcastResult {
       cover: PodcastCoverModel.fromJson(json['cover']),
       description: json['description'] ?? '',
       episodeCount: json['episode_count'] ?? 0, 
-      followersCount: json['followers_count'] ?? 0,
+      followersCount: json['follower_count'] ?? 0,
       languageCode: json['language'] ?? '',
       listenerCount: json['listener_count'] ?? 0,
       emailAddress: json['owner_email'] ?? '',

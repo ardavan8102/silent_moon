@@ -1,3 +1,4 @@
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:silent_moon/core/models/podcast_list_models/podcast_response.dart';
 import 'package:silent_moon/core/models/single_podcast/single_podcast_result.dart';
@@ -65,6 +66,21 @@ class DioApiService {
     final Map<String, dynamic> result = response.data['data']['result'][0];
 
     return SinglePodcastResult.fromJson(result);
+
+  }
+
+
+  // get podcast episodes through RSS
+  Future<String> fetchPodcastEpisodesRSS(String url) async {
+
+    final response = await dio.dio.get(
+      url,
+      options: Options(
+        responseType: .plain
+      )
+    );
+
+    return response.data;
 
   }
 
