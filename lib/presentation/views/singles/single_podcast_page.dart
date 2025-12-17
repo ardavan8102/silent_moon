@@ -2,9 +2,10 @@ import 'dart:ui';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:get/get.dart';
 import 'package:silent_moon/core/controllers/fetch_episodes_controller.dart';
-import 'package:silent_moon/core/controllers/podcast_single_controller.dart';
+import 'package:silent_moon/core/controllers/podcasts/podcast_single_controller.dart';
 import 'package:silent_moon/core/models/single_podcast/single_podcast_result.dart';
 import 'package:silent_moon/presentation/components/appbar_with_return_icon.dart';
 import 'package:silent_moon/presentation/components/cards/meta_data_card_item.dart';
@@ -257,9 +258,9 @@ class _SinglePodcastPageState extends State<SinglePodcastPage> {
           ),
         ),
 
-        Text(
+        HtmlWidget(
           podcast.description,
-          style: textTheme.bodySmall!.copyWith(
+          textStyle: textTheme.bodySmall!.copyWith(
             fontSize: 18
           ),
         ),
