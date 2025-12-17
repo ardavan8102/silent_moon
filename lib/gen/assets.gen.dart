@@ -39,6 +39,10 @@ class $AssetsImagesGen {
   AssetGenImage get meditation =>
       const AssetGenImage('assets/images/meditation.png');
 
+  /// File path: assets/images/musicplayer_bg.png
+  AssetGenImage get musicplayerBg =>
+      const AssetGenImage('assets/images/musicplayer_bg.png');
+
   /// Directory path: assets/images/podcast_covers
   $AssetsImagesPodcastCoversGen get podcastCovers =>
       const $AssetsImagesPodcastCoversGen();
@@ -62,10 +66,21 @@ class $AssetsImagesGen {
     logoText,
     logoTextDark,
     meditation,
+    musicplayerBg,
     reduceStressBg,
     splashBackground,
     welcome,
   ];
+}
+
+class $AssetsJsonGen {
+  const $AssetsJsonGen();
+
+  /// File path: assets/json/musics.json
+  String get musics => 'assets/json/musics.json';
+
+  /// List of all assets
+  List<String> get values => [musics];
 }
 
 class $AssetsSvgGen {
@@ -148,8 +163,13 @@ class $AssetsSvgTopicsGen {
 class Assets {
   const Assets._();
 
+  static const String aEnv = '.env';
   static const $AssetsImagesGen images = $AssetsImagesGen();
+  static const $AssetsJsonGen json = $AssetsJsonGen();
   static const $AssetsSvgGen svg = $AssetsSvgGen();
+
+  /// List of all assets
+  static List<String> get values => [aEnv];
 }
 
 class AssetGenImage {

@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:silent_moon/core/helpers/parse_xml.dart';
-import 'package:silent_moon/core/helpers/sort_episodes_by_date.dart';
 import 'package:silent_moon/core/models/single_podcast/podcast_episode_model.dart';
+import 'package:silent_moon/core/models/single_podcast/single_podcast_result.dart';
 import 'package:silent_moon/core/network/dio_client.dart';
 import 'package:silent_moon/services/dio_api_service.dart';
 
@@ -12,6 +12,7 @@ class FetchEpisodesController extends GetxController {
 
   FetchEpisodesController(this.rssUrl);
 
+  final podcast = Rxn<SinglePodcastResult>();
   final episodes = <PodcastEpisode>[].obs;
   final isLoading = false.obs;
 
@@ -31,9 +32,10 @@ class FetchEpisodesController extends GetxController {
 
       final xmlString = await DioApiService(DioClient()).fetchPodcastEpisodesRSS(rssUrl);
 
-      final parsedXML = parsePodcastEpisodes(xmlString);
-
-      parsedXML.sortByDateDesc();
+      final parsedXML = parsePodcastEpisodes(
+        xmlString,
+        podcastFallbackImage: podcast.value?.cover.image ?? '',
+      );
 
       episodes.assignAll(parsedXML);
 

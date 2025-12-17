@@ -43,8 +43,6 @@ class CustomBottomNavigation extends StatelessWidget {
           
               bottomNavigationIconItem(size, 1, 'موسیقی', CupertinoIcons.music_albums),
           
-              bottomNavigationIconItem(size, 2, 'خواب', CupertinoIcons.moon),
-          
               bottomNavigationIconItem(size, 3, 'مدیتیشن', Icons.mood),
 
             ],

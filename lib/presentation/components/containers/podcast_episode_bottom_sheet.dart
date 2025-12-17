@@ -1,8 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
+import 'package:get/get.dart';
 import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/core/models/single_podcast/podcast_episode_model.dart';
+import 'package:silent_moon/core/models/single_podcast/single_podcast_result.dart';
+import 'package:silent_moon/core/routes/routes.dart';
 import 'package:silent_moon/presentation/components/button/custom_elevated_button_icon.dart';
 
 class EpisodesBottomSheetContainer extends StatelessWidget {
@@ -11,10 +14,12 @@ class EpisodesBottomSheetContainer extends StatelessWidget {
     required this.size,
     required this.episode,
     required this.index,
+    required this.podcast,
   });
 
   final Size size;
   final PodcastEpisode episode;
+  final Rxn<SinglePodcastResult> podcast;
   final int index;
 
   @override
@@ -84,7 +89,14 @@ class EpisodesBottomSheetContainer extends StatelessWidget {
                   icon: CupertinoIcons.headphones,
                   label: 'گوش دادن',
                   function: () {
-                    // TODO : Start Music Player and playing audio file online
+                    Get.back();
+                    Get.toNamed(
+                      AppRoutes.audioPlayer,
+                      arguments: {
+                        'podcast' : podcast,
+                        'episode' : episode,
+                      },
+                    );
                   },
                 )
               ),

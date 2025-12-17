@@ -4,6 +4,7 @@ class AppSolidColors {
 
   // Global
   static const Color primary = Color(0xff8E97FD);
+  static const Color musicPlayerBackgroundScaffold = Color(0xff03174C);
 
   // For Dark Theme
   static const Color darkBackground = Color(0xff03174C);

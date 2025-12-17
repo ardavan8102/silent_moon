@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:silent_moon/presentation/components/bottom_navigation.dart';
 import 'package:silent_moon/core/controllers/main_screen_handler.dart';
-import 'package:silent_moon/presentation/views/normal/main/home.dart';
-import 'package:silent_moon/presentation/views/normal/main/meditations.dart';
-import 'package:silent_moon/presentation/views/normal/main/music_albums.dart';
-import 'package:silent_moon/presentation/views/sleep/sleep_home.dart';
+import 'package:silent_moon/presentation/views/main/home.dart';
+import 'package:silent_moon/presentation/views/main/meditations.dart';
+import 'package:silent_moon/presentation/views/main/music_albums.dart';
 
 class MainScreen extends StatelessWidget {
   MainScreen({super.key});
@@ -22,8 +21,6 @@ class MainScreen extends StatelessWidget {
       HomePage(),
 
       MusicAlbumsPage(),
-
-      SleepHomePage(),
 
       MeditationsPage(),
 

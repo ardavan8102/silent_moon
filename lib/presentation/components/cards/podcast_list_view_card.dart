@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:silent_moon/consts/colors.dart';
 import 'package:silent_moon/core/models/podcast_list_models/podcast_result.dart';
 import 'package:silent_moon/presentation/components/cached_image.dart';
-import 'package:silent_moon/presentation/views/normal/singles/single_podcast_page.dart';
+import 'package:silent_moon/presentation/views/singles/single_podcast_page.dart';
 
 class PodcastListViewCard extends StatelessWidget {
   final PodcastResponseResult podcast;

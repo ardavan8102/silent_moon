@@ -199,7 +199,12 @@ class _SinglePodcastPageState extends State<SinglePodcastPage> {
                                     return GestureDetector(
                                       onTap: () {
                                         Get.bottomSheet(
-                                          EpisodesBottomSheetContainer(size: size, episode: episode, index: index),
+                                          EpisodesBottomSheetContainer(
+                                            size: size,
+                                            episode: episode,
+                                            podcast: podcastSingleController.podcast,
+                                            index: index
+                                          ),
                                         );
                                       },
                                       child: Container(

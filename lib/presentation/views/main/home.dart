@@ -82,6 +82,8 @@ class HomePage extends StatelessWidget {
       
           podcastListViewBuilderWithCatId(size, 643),
 
+          const SizedBox(height: 30), // Spacer
+
 
           // 635
           ListviewSectionTitle(label: 'طنــز و اجتمــاع'),
@@ -89,6 +91,8 @@ class HomePage extends StatelessWidget {
           const SizedBox(height: 20),
       
           podcastListViewBuilderWithCatId(size, 635),
+
+          const SizedBox(height: 30), // Spacer
 
 
           // 630
@@ -98,6 +102,8 @@ class HomePage extends StatelessWidget {
       
           podcastListViewBuilderWithCatId(size, 630),
 
+          const SizedBox(height: 30), // Spacer
+
 
           // 641
           ListviewSectionTitle(label: 'سمتـــ خــدا و باورهــها'),
@@ -105,6 +111,8 @@ class HomePage extends StatelessWidget {
           const SizedBox(height: 20),
       
           podcastListViewBuilderWithCatId(size, 641),
+
+          const SizedBox(height: 15), // Spacer
 
         ],
       ),

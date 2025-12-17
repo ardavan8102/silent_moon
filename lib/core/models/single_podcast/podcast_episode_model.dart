@@ -1,15 +1,15 @@
 class PodcastEpisode {
+  final String id;
   final String title;
   final String description;
   final String audioUrl;
-  final String pubDate;
-  final String duration;
+  final Duration? duration;
 
   PodcastEpisode({
+    required this.id,
     required this.title,
     required this.description,
     required this.audioUrl,
-    required this.pubDate,
-    required this.duration,
+    this.duration,
   });
 }
