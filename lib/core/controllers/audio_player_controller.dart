@@ -1,64 +1,67 @@
-import 'package:get/get.dart';
+import 'package:get/get.dart' hide Rx;
 import 'package:just_audio/just_audio.dart';
+import 'package:rxdart/rxdart.dart';
+import 'package:silent_moon/core/models/music/position_data.dart';
 import 'package:silent_moon/core/models/single_podcast/podcast_episode_model.dart';
 
 class AudioPlayerController extends GetxController {
-
-  final AudioPlayer _player = AudioPlayer();
+  final AudioPlayer player = AudioPlayer();
 
   final currentEpisode = Rxn<PodcastEpisode>();
   final isPlaying = false.obs;
-  final position = Duration.zero.obs;
-  final duration = Duration.zero.obs;
 
+  Stream<PositionData> get positionDataStream =>
+      Rx.combineLatest3<Duration, Duration, Duration?, PositionData>(
+        player.positionStream,
+        player.bufferedPositionStream,
+        player.durationStream,
+        (position, buffered, duration) => PositionData(
+          position: position,
+          bufferedPosition: buffered,
+          duration: duration ?? Duration.zero,
+        ),
+      );
 
   @override
   void onInit() {
-
     super.onInit();
-    
-    _player.playerStateStream.listen((state){
+    player.playerStateStream.listen((state) {
       isPlaying.value = state.playing;
     });
-
-    _player.positionStream.listen((p){
-      position.value = p;
-    });
-
-    _player.durationStream.listen((d){
-      if (d != null) {
-        duration.value = d;
-      }
-    });
-
   }
 
-
-  Future<void> playEpisode(PodcastEpisode episode) async {
-
+  Future<void> togglePlayPause(PodcastEpisode episode) async {
     if (currentEpisode.value?.id != episode.id) {
-      await _player.setUrl(episode.audioUrl);
+      await player.setUrl(episode.audioUrl);
       currentEpisode.value = episode;
+      await player.play();
+      return;
     }
 
-    _player.play();
-
+    player.playing ? await player.pause() : await player.play();
   }
 
+  Future<void> rewind10() async {
+    final current = player.position;
+    final target = current - const Duration(seconds: 10);
 
-  Future<void> pause() async => _player.pause();
+    await seek(target < Duration.zero ? Duration.zero : target);
+  }
 
+  Future<void> forward10() async {
+    final current = player.position;
+    final duration = player.duration ?? Duration.zero;
 
-  Future<void> seek(Duration d) async => _player.seek(d);
+    final target = current + const Duration(seconds: 10);
 
+    await seek(target > duration ? duration : target);
+  }
 
-  Future<void> stop() async => _player.stop();
-
+  Future<void> seek(Duration d) async => player.seek(d);
 
   @override
   void onClose() {
-    _player.dispose();
+    player.dispose();
     super.onClose();
   }
-
 }

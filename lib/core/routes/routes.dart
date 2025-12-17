@@ -3,7 +3,7 @@ import 'package:silent_moon/bindings.dart';
 import 'package:silent_moon/presentation/views/intro/choose_topic.dart';
 import 'package:silent_moon/presentation/views/intro/set_reminders.dart';
 import 'package:silent_moon/presentation/views/intro/welcome.dart';
-import 'package:silent_moon/presentation/views/main/audio_player_page.dart';
+import 'package:silent_moon/presentation/views/main/podcast_audio_player_page.dart';
 import 'package:silent_moon/presentation/views/main/main_screen.dart';
 import 'package:silent_moon/presentation/views/main/music_albums.dart';
 
