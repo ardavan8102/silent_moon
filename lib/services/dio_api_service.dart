@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:silent_moon/core/models/podcast_list_models/podcast_response.dart';
+import 'package:silent_moon/core/models/single_podcast/single_podcast_result.dart';
 import 'package:silent_moon/core/network/api_endpoints.dart';
 import 'package:silent_moon/core/network/dio_client.dart';
 
@@ -50,5 +51,22 @@ class DioApiService {
     return PodcastResponse.fromJson(reponse.data);
 
   }
+
+
+  // single podcast data
+  Future<SinglePodcastResult> getSinglePodcastResult({String? slug}) async {
+
+    debugPrint('✅ getSinglePodcastResult CALLED');
+
+    final response = await dio.dio.get(
+      '${ApiEndpoints.getSinglePodcastInfo}$slug',
+    );
+
+    final Map<String, dynamic> result = response.data['data']['result'][0];
+
+    return SinglePodcastResult.fromJson(result);
+
+  }
+
 
 }

@@ -1,4 +1,4 @@
-package com.example.silent_moon
+package com.silentmoon.app
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -15,6 +15,7 @@ class AppRoutes {
   static const setReminders = '/set-reminders';
   static const home = '/home';
   static const musicsAlbum = '/album';
+  static const podcastSingle = '/podcast-single';
 
 }
 
